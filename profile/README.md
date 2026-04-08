@@ -20,7 +20,7 @@ We provide ready-to-use parsers for a growing list of platforms across e-commerc
 |----------|-------------|
 | [Amazon](https://amazon.com) | Products, reviews, pricing, seller data |
 | [Mediamarkt](http://mediamarkt.com) | [Mediamarkt parser](https://github.com/2parser/mediamarkt-parser) |
-| [Etsy](https://etsy.com) | Handmade & vintage listings, shop data |
+| [Etsy](https://etsy.com) | [Etsy parser](https://github.com/2parser/etsy-parser) |
 | [Tokopedia](https://tokopedia.com) | Indonesian e-commerce product data |
 | [Catawiki](https://catawiki.com) | Auction listings and lot details |
 | [Spinny](https://spinny.com) | Used car listings and vehicle data |
