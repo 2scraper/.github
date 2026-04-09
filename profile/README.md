@@ -1,26 +1,26 @@
 
-# 2Parser Company repositories
+# 2Scraper Company repositories
 
-Get started with 2Parser using our ready to use repositories
+Get started with 2scraper using our ready to use repositories
 
 ## 🧩 Who We Are
 
-**2Parser** is a data extraction company specializing in building fast, reliable, and maintainable parsers for the world's most popular websites. We turn raw, unstructured web content into clean, structured datasets — so you can focus on insights, not scraping.
+**2scraper** is a data extraction company specializing in building fast, reliable, and maintainable scrapers for the world's most popular websites. We turn raw, unstructured web content into clean, structured datasets — so you can focus on insights, not scraping.
 
-Whether you need product listings, marketplace data, community content, or pricing intelligence, we've got a parser for that.
+Whether you need product listings, marketplace data, community content, or pricing intelligence, we've got a scraper for that.
 
 ---
 
 ## 🌐 Platforms We Support
 
-We provide ready-to-use parsers for a growing list of platforms across e-commerce, classifieds, travel, food, finance, and more:
+We provide ready-to-use scrapers for a growing list of platforms across e-commerce, classifieds, travel, food, finance, and more:
 
 ### 🛒 E-Commerce & Marketplaces
 | Platform | Description |
 |----------|-------------|
 | [Amazon](https://amazon.com) | Products, reviews, pricing, seller data |
-| [Mediamarkt](http://mediamarkt.com) | [Mediamarkt parser](https://github.com/2parser/mediamarkt-parser) |
-| [Etsy](https://etsy.com) | [Etsy parser](https://github.com/2parser/etsy-parser) |
+| [Mediamarkt](http://mediamarkt.com) | [Mediamarkt scraper](https://github.com/2scraper/mediamarkt-scraper) |
+| [Etsy](https://etsy.com) | [Etsy scraper](https://github.com/2scraper/etsy-scraper) |
 | [Tokopedia](https://tokopedia.com) | Indonesian e-commerce product data |
 | [Catawiki](https://catawiki.com) | Auction listings and lot details |
 | [Spinny](https://spinny.com) | Used car listings and vehicle data |
@@ -28,7 +28,7 @@ We provide ready-to-use parsers for a growing list of platforms across e-commerc
 ### 🏠 Real Estate & Classifieds
 | Platform | Description |
 |----------|-------------|
-| [Craigslist](https://craigslist.org) | [Craiglist parser](https://github.com/2parser/craiglist-parser)  |
+| [Craigslist](https://craigslist.org) | [Craiglist scraper](https://github.com/2scraper/craiglist-scraper)  |
 | [Dubizzle](https://dubizzle.com) | Middle East classifieds — property & vehicles |
 | [VRBO](https://vrbo.com) | Vacation rental listings and pricing |
 
@@ -62,9 +62,9 @@ We provide ready-to-use parsers for a growing list of platforms across e-commerc
 
 - ✅ **Structured output** — JSON, CSV, or custom formats
 - ✅ **Consistent schemas** — predictable fields across runs
-- ✅ **Maintained parsers** — updated when sites change
+- ✅ **Maintained scrapers** — updated when sites change
 - ✅ **High reliability** — handles pagination, dynamic content & anti-bot measures
-- ✅ **Custom parsers on request** — just ask
+- ✅ **Custom scrapers on request** — just ask
 
 ---
 
@@ -73,7 +73,7 @@ We provide ready-to-use parsers for a growing list of platforms across e-commerc
 Our repositories follow a consistent naming pattern:
 
 ```
-2parser/<platform>-parser
+2scraper/<platform>-scraper
 ```
 
 Each repo includes:
@@ -86,9 +86,9 @@ Each repo includes:
 
 ## 🤝 Get Involved
 
-We welcome contributions, issue reports, and parser requests from the community.
+We welcome contributions, issue reports, and scraper requests from the community.
 
-- 🐛 **Found a broken parser?** Open an issue in the relevant repo.
+- 🐛 **Found a broken scraper?** Open an issue in the relevant repo.
 - 💡 **Need a new site parsed?** Submit a feature request.
 - 🔧 **Want to contribute?** PRs are always welcome — check our contribution guidelines.
 
