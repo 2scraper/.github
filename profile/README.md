@@ -21,7 +21,7 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 | [Amazon](https://amazon.com) | Products, reviews, pricing, seller data |
 | [Mediamarkt](http://mediamarkt.com) | [Mediamarkt scraper](https://github.com/2scraper/mediamarkt-scraper) |
 | [Etsy](https://etsy.com) | [Etsy scraper](https://github.com/2scraper/etsy-scraper) |
-| [Tokopedia](https://tokopedia.com) | Indonesian e-commerce product data |
+| [Tokopedia](https://tokopedia.com) | [Tokopedia scraper](https://github.com/2scraper/tokopedia-scraper) |
 | [Catawiki](https://catawiki.com) | Auction listings and lot details |
 | [Spinny](https://spinny.com) | Used car listings and vehicle data |
 
