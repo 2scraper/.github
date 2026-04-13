@@ -20,15 +20,15 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 |----------|-------------|-------------|
 | [Amazon](https://amazon.com) |  | Products, reviews, pricing, seller data |
 | [Mediamarkt](http://mediamarkt.com) | [Mediamarkt scraper](https://github.com/2scraper/mediamarkt-scraper) |  |
-| [Etsy](https://etsy.com) | [Etsy scraper](https://github.com/2scraper/etsy-scraper) |  |
-| [Tokopedia](https://tokopedia.com) | [Tokopedia scraper](https://github.com/2scraper/tokopedia-scraper) |  |
-| [Catawiki](https://catawiki.com) | [Catewiki scraper](https://github.com/2scraper/catawiki-scraper) |  |
+| [Etsy](https://etsy.com) | [Etsy scraper](https://github.com/2scraper/etsy-scraper) | Handmade & vintage listings, shop data |
+| [Tokopedia](https://tokopedia.com) | [Tokopedia scraper](https://github.com/2scraper/tokopedia-scraper) | Indonesian e-commerce product data |
+| [Catawiki](https://catawiki.com) | [Catewiki scraper](https://github.com/2scraper/catawiki-scraper) | Auction listings and lot details |
 | [Spinny](https://spinny.com) |  | Used car listings and vehicle data |
 
 ### 🏠 Real Estate & Classifieds
 | Platform | Link | Description |
 |----------|-------------|-------------|
-| [Craigslist](https://craigslist.org) | [Craiglist scraper](https://github.com/2scraper/craiglist-scraper)  |  |
+| [Craigslist](https://craigslist.org) | [Craiglist scraper](https://github.com/2scraper/craiglist-scraper)  | Classifieds: housing, jobs, for sale, services |
 | [Dubizzle](https://dubizzle.com) |  | Middle East classifieds — property & vehicles |
 | [VRBO](https://vrbo.com) |  | Vacation rental listings and pricing |
 
