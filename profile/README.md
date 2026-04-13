@@ -16,21 +16,21 @@ Whether you need product listings, marketplace data, community content, or prici
 We provide ready-to-use scrapers for a growing list of platforms across e-commerce, classifieds, travel, food, finance, and more:
 
 ### 🛒 E-Commerce & Marketplaces
-| Platform | Description |
-|----------|-------------|
-| [Amazon](https://amazon.com) | Products, reviews, pricing, seller data |
-| [Mediamarkt](http://mediamarkt.com) | [Mediamarkt scraper](https://github.com/2scraper/mediamarkt-scraper) |
-| [Etsy](https://etsy.com) | [Etsy scraper](https://github.com/2scraper/etsy-scraper) |
-| [Tokopedia](https://tokopedia.com) | [Tokopedia scraper](https://github.com/2scraper/tokopedia-scraper) |
-| [Catawiki](https://catawiki.com) | [Catewiki scraper](https://github.com/2scraper/catawiki-scraper) |
-| [Spinny](https://spinny.com) | Used car listings and vehicle data |
+| Platform | Link | Description |
+|----------|-------------|-------------|
+| [Amazon](https://amazon.com) |  | Products, reviews, pricing, seller data |
+| [Mediamarkt](http://mediamarkt.com) | [Mediamarkt scraper](https://github.com/2scraper/mediamarkt-scraper) |  |
+| [Etsy](https://etsy.com) | [Etsy scraper](https://github.com/2scraper/etsy-scraper) |  |
+| [Tokopedia](https://tokopedia.com) | [Tokopedia scraper](https://github.com/2scraper/tokopedia-scraper) |  |
+| [Catawiki](https://catawiki.com) | [Catewiki scraper](https://github.com/2scraper/catawiki-scraper) |  |
+| [Spinny](https://spinny.com) |  | Used car listings and vehicle data |
 
 ### 🏠 Real Estate & Classifieds
-| Platform | Description |
-|----------|-------------|
-| [Craigslist](https://craigslist.org) | [Craiglist scraper](https://github.com/2scraper/craiglist-scraper)  |
-| [Dubizzle](https://dubizzle.com) | Middle East classifieds — property & vehicles |
-| [VRBO](https://vrbo.com) | Vacation rental listings and pricing |
+| Platform | Link | Description |
+|----------|-------------|-------------|
+| [Craigslist](https://craigslist.org) | [Craiglist scraper](https://github.com/2scraper/craiglist-scraper)  |  |
+| [Dubizzle](https://dubizzle.com) |  | Middle East classifieds — property & vehicles |
+| [VRBO](https://vrbo.com) |  | Vacation rental listings and pricing |
 
 ### 🍔 Food & Delivery
 | Platform | Description |
