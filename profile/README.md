@@ -29,7 +29,7 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 | Platform | Link | Description |
 |----------|-------------|-------------|
 | [Craigslist](https://craigslist.org) | [Craiglist scraper](https://github.com/2scraper/craiglist-scraper)  | Classifieds: housing, jobs, for sale, services |
-| [Dubizzle](https://dubizzle.com) |  | Middle East classifieds — property & vehicles |
+| [Dubizzle](https://dubizzle.com) | [Dubizzle scraper](https://github.com/2scraper/dubizzle-scraper) | Middle East classifieds — property & vehicles |
 | [VRBO](https://vrbo.com) |  | Vacation rental listings and pricing |
 
 ### 🍔 Food & Delivery
