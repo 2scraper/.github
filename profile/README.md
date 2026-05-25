@@ -45,8 +45,8 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 | [BBB](https://bbb.org) | [BBB scraper](https://github.com/2scraper/bbb-scraper)  | Business ratings, reviews & accreditation data |
 
 ### 📈 Finance & Prediction Markets
-| Platform | Description |
-|----------|-------------|
+| Platform | Link | Description |
+|----------|-------------|-------------|
 | [Polymarket](https://polymarket.com) | [Polymarket scraper](https://github.com/2scraper/polymarket-scraper) | Prediction market contracts & probabilities |
 
 ### 🛍️ Grocery & Retail
