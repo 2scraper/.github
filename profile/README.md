@@ -47,7 +47,7 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 ### 📈 Finance & Prediction Markets
 | Platform | Description |
 |----------|-------------|
-| [Polymarket](https://polymarket.com) | Prediction market contracts & probabilities |
+| [Polymarket](https://polymarket.com) | [Polymarket scraper](https://github.com/polymarket-scraper) | Prediction market contracts & probabilities |
 
 ### 🛍️ Grocery & Retail
 | Platform | Description |
