@@ -50,9 +50,9 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 | [Polymarket](https://polymarket.com) | [Polymarket scraper](https://github.com/2scraper/polymarket-scraper) | Prediction market contracts & probabilities |
 
 ### 🛍️ Grocery & Retail
-| Platform | Description |
-|----------|-------------|
-| [Woolworths AU](https://woolworths.com.au) | Australian grocery products & pricing |
+| Platform | Link | Description |
+|----------|-------------|-------------|
+| [Woolworths AU](https://woolworths.com.au) | [Woolworths scraper](https://github.com/2scraper/woolworths-scraper) | Australian grocery products & pricing | 
 
 > 🚀 **...and many more platforms are added regularly.** Don't see your target site? [Open a request →](#)
 
