@@ -24,6 +24,7 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 | [Tokopedia](https://tokopedia.com) | [Tokopedia scraper](https://github.com/2scraper/tokopedia-scraper) | Indonesian e-commerce product data |
 | [Catawiki](https://catawiki.com) | [Catewiki scraper](https://github.com/2scraper/catawiki-scraper) | Auction listings and lot details |
 | [Spinny](https://spinny.com) | [Spinny scraper](https://github.com/2scraper/spinny-scraper) | Used car listings and vehicle data |
+| [Farfetch](https://farfetch.com) | [Farfetch scraper](https://github.com/2scraper/farfetch-scraper) | Luxury fashion listings — pricing, discounts, availability |
 
 ### 🏠 Real Estate & Classifieds
 | Platform | Link | Description |
