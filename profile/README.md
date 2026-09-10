@@ -20,7 +20,7 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 |----------|-------------|-------------|
 | [Amazon](https://amazon.com) | [Amazon scraper](https://github.com/2scraper/amazon-scraper) | Search, best sellers, products & public reviews — 21 marketplaces |
 | [MediaMarkt](https://www.mediamarkt.de) | [MediaMarkt scraper](https://github.com/2scraper/mediamarkt-scraper) | Category grids, search & product pages — 10 country sites, 5 currencies |
-| [Etsy](https://etsy.com) | [Etsy scraper](https://github.com/2scraper/etsy-scraper) | Handmade & vintage listings, shop data |
+| [Etsy](https://etsy.com) | [Etsy scraper](https://github.com/2scraper/etsy-scraper) | Search, categories, shop fronts & listings — sponsored placements flagged, DataDome-aware |
 | [Tokopedia](https://tokopedia.com) | [Tokopedia scraper](https://github.com/2scraper/tokopedia-scraper) | Indonesian e-commerce product data |
 | [Catawiki](https://catawiki.com) | [Catewiki scraper](https://github.com/2scraper/catawiki-scraper) | Auction listings and lot details |
 | [Spinny](https://spinny.com) | [Spinny scraper](https://github.com/2scraper/spinny-scraper) | Used car listings and vehicle data |
