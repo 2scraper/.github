@@ -23,7 +23,7 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 | [Etsy](https://etsy.com) | [Etsy scraper](https://github.com/2scraper/etsy-scraper) | Search, categories, shop fronts & listings — sponsored placements flagged, DataDome-aware |
 | [Tokopedia](https://tokopedia.com) | [Tokopedia scraper](https://github.com/2scraper/tokopedia-scraper) | Indonesian e-commerce product data |
 | [Catawiki](https://catawiki.com) | [Catawiki scraper](https://github.com/2scraper/catawiki-scraper) | Auction lots, bids, reserves, estimates & sellers — 18 locales, whole auctions in one request |
-| [Spinny](https://spinny.com) | [Spinny scraper](https://github.com/2scraper/spinny-scraper) | Used car listings and vehicle data |
+| [Spinny](https://spinny.com) | [Spinny scraper](https://github.com/2scraper/spinny-scraper) | Used-car city & filtered listings plus car detail pages — exact odometer, owner count & insurance; runs with no key or proxy |
 | [Farfetch](https://farfetch.com) | [Farfetch scraper](https://github.com/2scraper/farfetch-scraper) | Luxury fashion listings — pricing, discounts, availability |
 
 ### 🏠 Real Estate & Classifieds
