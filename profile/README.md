@@ -29,7 +29,7 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 ### 🏠 Real Estate & Classifieds
 | Platform | Link | Description |
 |----------|-------------|-------------|
-| [Craigslist](https://craigslist.org) | [Craiglist scraper](https://github.com/2scraper/craiglist-scraper)  | Classifieds: housing, jobs, for sale, services |
+| [Craigslist](https://craigslist.org) | [Craigslist scraper](https://github.com/2scraper/craigslist-scraper) | Result lists & adverts across 714 areas — for sale, housing, jobs, services; JSON-LD prices, coordinates & 5 currencies; runs with no key or proxy |
 | [Dubizzle](https://dubizzle.com) | [Dubizzle scraper](https://github.com/2scraper/dubizzle-scraper) | Middle East classifieds — property & vehicles |
 | [VRBO](https://vrbo.com) | [VRBO scraper](https://github.com/2scraper/vrbo-scraper) | Vacation rental listings and pricing |
 
