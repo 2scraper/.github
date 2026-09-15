@@ -25,6 +25,7 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 | [Catawiki](https://catawiki.com) | [Catawiki scraper](https://github.com/2scraper/catawiki-scraper) | Auction lots, bids, reserves, estimates & sellers — 18 locales, whole auctions in one request |
 | [Spinny](https://spinny.com) | [Spinny scraper](https://github.com/2scraper/spinny-scraper) | Used-car city & filtered listings plus car detail pages — exact odometer, owner count & insurance; runs with no key or proxy |
 | [Farfetch](https://farfetch.com) | [Farfetch scraper](https://github.com/2scraper/farfetch-scraper) | Luxury fashion listings — pricing, discounts, availability |
+| [StockX](https://stockx.com) | [StockX scraper](https://github.com/2scraper/stockx-scraper) | Search, category browse & product pages — live market data (lowest ask, highest bid, last sale, 90-day stats); runs with no key or proxy |
 
 ### 🏠 Real Estate & Classifieds
 | Platform | Link | Description |
