@@ -37,7 +37,7 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 ### 🍔 Food & Delivery
 | Platform | Link | Description |
 |----------|-------------|-------------|
-| [Foodpanda](https://foodpanda.com) | [Foodpanda scraper](https://github.com/2scraper/foodpanda-scraper) | Restaurant menus, delivery info & ratings |
+| [foodpanda](https://foodpanda.com) | [foodpanda scraper](https://github.com/2scraper/foodpanda-scraper) | Restaurant & shop listings across 10 Asian country sites — ratings, cuisines, deals, delivery fees & opening state; JSON/CSV, runs with no key or proxy |
 
 ### 💬 Community & Knowledge
 | Platform | Link | Description |
