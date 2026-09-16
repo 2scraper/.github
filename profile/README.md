@@ -44,7 +44,7 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 |----------|-------------|-------------|
 | [Quora](https://quora.com) | [Quora scraper](https://github.com/2scraper/quora-scraper)  | Questions, answers, and topic data |
 | [Medium](https://medium.com) | [Medium scraper](https://github.com/2scraper/medium-scraper)  |Articles, authors, publication metadata |
-| [BBB](https://bbb.org) | [BBB scraper](https://github.com/2scraper/bbb-scraper)  | Business ratings, reviews & accreditation data |
+| [BBB](https://bbb.org) | [BBB scraper](https://github.com/2scraper/bbb-scraper)  | Business listings, BBB ratings, accreditation & complaint counts |
 
 ### 📈 Finance & Prediction Markets
 | Platform | Link | Description |
