@@ -57,6 +57,11 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 |----------|-------------|-------------|
 | [Indiegogo](https://indiegogo.com) | [Indiegogo scraper](https://github.com/2scraper/indiegogo-scraper) | Project search, campaign pages & reward tiers — funding totals, goals, backers, deadlines; Cloudflare Turnstile handled, runs with no key or proxy |
 
+### ⚽ Sports & Statistics
+| Platform | Link | Description |
+|----------|-------------|-------------|
+| [Transfermarkt](https://transfermarkt.com) | [Transfermarkt scraper](https://github.com/2scraper/transfermarkt-scraper) | Player market-value rankings, full club squads, the latest-transfers ledger & player profiles — two row schemas, run metadata that says whether a result is complete |
+
 ### 🛍️ Grocery & Retail
 | Platform | Link | Description |
 |----------|-------------|-------------|
