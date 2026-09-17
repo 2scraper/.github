@@ -62,6 +62,11 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 |----------|-------------|-------------|
 | [Woolworths AU](https://woolworths.com.au) | [Woolworths scraper](https://github.com/2scraper/woolworths-scraper) | Australian grocery products & pricing | 
 
+### ⚽ Sports & Athletics
+| Platform | Link | Description |
+|----------|-------------|-------------|
+| [Transfermarkt](https://transfermarkt.com) | [Transfermarkt scraper](https://github.com/2scraper/transfermarkt-scraper) | Player market values, club squads, the transfer ledger & full player profiles — 5 locale sites, JSON/CSV |
+
 > 🚀 **...and many more platforms are added regularly.** Don't see your target site? [Open a request →](#)
 
 ---
