@@ -61,6 +61,7 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 | Platform | Link | Description |
 |----------|-------------|-------------|
 | [Woolworths AU](https://woolworths.com.au) | [Woolworths scraper](https://github.com/2scraper/woolworths-scraper) | Australian grocery products & pricing | 
+| [Sleep Number](https://sleepnumber.com) | [Sleep Number scraper](https://github.com/2scraper/sleepnumber-scraper) | Smart beds, mattresses, bedding & furniture — one row per size variant with its own price, sale price, rating & availability |
 
 ### ⚽ Sports & Athletics
 | Platform | Link | Description |
