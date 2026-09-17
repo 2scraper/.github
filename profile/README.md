@@ -51,6 +51,11 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 |----------|-------------|-------------|
 | [Polymarket](https://polymarket.com) | [Polymarket scraper](https://github.com/2scraper/polymarket-scraper) | Prediction market contracts & probabilities |
 
+### 🚀 Crowdfunding
+| Platform | Link | Description |
+|----------|-------------|-------------|
+| [Indiegogo](https://indiegogo.com) | [Indiegogo scraper](https://github.com/2scraper/indiegogo-scraper) | Project search, campaign pages & reward tiers — funding totals, goals, backers, deadlines; Cloudflare Turnstile handled, runs with no key or proxy |
+
 ### 🛍️ Grocery & Retail
 | Platform | Link | Description |
 |----------|-------------|-------------|
