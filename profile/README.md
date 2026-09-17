@@ -63,6 +63,11 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 | [Woolworths AU](https://woolworths.com.au) | [Woolworths scraper](https://github.com/2scraper/woolworths-scraper) | Australian grocery products & pricing | 
 | [Sleep Number](https://sleepnumber.com) | [Sleep Number scraper](https://github.com/2scraper/sleepnumber-scraper) | Smart beds, mattresses, bedding & furniture — one row per size variant with its own price, sale price, rating & availability |
 
+### 💼 Jobs & Hiring
+| Platform | Link | Description |
+|----------|-------------|-------------|
+| [Wellfound](https://wellfound.com) | [Wellfound scraper](https://github.com/2scraper/wellfound-scraper) | Startup job listings (formerly AngelList Talent) — role landing pages, the jobs feed & individual jobs; salary AND equity ranges, company size, badges & full descriptions |
+
 ### ⚽ Sports & Athletics
 | Platform | Link | Description |
 |----------|-------------|-------------|
