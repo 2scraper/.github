@@ -70,6 +70,7 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 |----------|-------------|-------------|
 | [Wellfound](https://wellfound.com) | [Wellfound scraper](https://github.com/2scraper/wellfound-scraper) | Startup job listings (formerly AngelList Talent) — role landing pages, the jobs feed & individual jobs; salary AND equity ranges, company size, badges & full descriptions |
 | [Just Join IT](https://justjoin.it) | [justjoin scraper](https://github.com/2scraper/justjoin-scraper) | Polish IT job board — salaries in the currency the employer quoted, per-skill levels, seniority, languages & multi-city postings; the board's own facet counts; runs with no key or proxy |
+| [Mercor](https://mercor.com) | [Mercor scraper](https://github.com/2scraper/mercor-scraper) | AI-talent marketplace — contract roles with hourly rates, the site's own domain categories, work & residence eligibility and slot counts, plus Mercor's own corporate openings; runs with no key or proxy |
 
 ### ⚽ Sports & Athletics
 | Platform | Link | Description |
