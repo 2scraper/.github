@@ -69,6 +69,7 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 | Platform | Link | Description |
 |----------|-------------|-------------|
 | [Wellfound](https://wellfound.com) | [Wellfound scraper](https://github.com/2scraper/wellfound-scraper) | Startup job listings (formerly AngelList Talent) — role landing pages, the jobs feed & individual jobs; salary AND equity ranges, company size, badges & full descriptions |
+| [Just Join IT](https://justjoin.it) | [justjoin scraper](https://github.com/2scraper/justjoin-scraper) | Polish IT job board — salaries in the currency the employer quoted, per-skill levels, seniority, languages & multi-city postings; the board's own facet counts; runs with no key or proxy |
 
 ### ⚽ Sports & Athletics
 | Platform | Link | Description |
