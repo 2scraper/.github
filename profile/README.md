@@ -65,6 +65,7 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 |----------|-------------|-------------|
 | [Woolworths AU](https://woolworths.com.au) | [Woolworths scraper](https://github.com/2scraper/woolworths-scraper) | Australian grocery products & pricing | 
 | [Sleep Number](https://sleepnumber.com) | [Sleep Number scraper](https://github.com/2scraper/sleepnumber-scraper) | Smart beds, mattresses, bedding & furniture — one row per size variant with its own price, sale price, rating & availability |
+| [Lidl US](https://www.lidl.com) | [Lidl scraper](https://github.com/2scraper/lidl-scraper) | Grocery search & weekly-deals category browsing — unit price/size, discount %, weekly-deal flag, store/zip; three-engine parity (Playwright/Selenium/Puppeteer); runs with no key or proxy |
 
 ### 💼 Jobs & Hiring
 | Platform | Link | Description |
