@@ -50,6 +50,7 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 | [Quora](https://quora.com) | [Quora scraper](https://github.com/2scraper/quora-scraper)  | Questions, answers, and topic data |
 | [Medium](https://medium.com) | [Medium scraper](https://github.com/2scraper/medium-scraper)  |Articles, authors, publication metadata |
 | [BBB](https://bbb.org) | [BBB scraper](https://github.com/2scraper/bbb-scraper)  | Business listings, BBB ratings, accreditation & complaint counts |
+| [Weibo](https://weibo.com) | [Weibo scraper](https://github.com/2scraper/weibo-scraper) | Chinese microblogging: the public hot feed, an account's posts & a post's comments — engagement counts, regions, topics & the full post text recovered where the site truncates it; runs with no key, proxy or account |
 
 ### 📈 Finance & Prediction Markets
 | Platform | Link | Description |
