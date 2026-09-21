@@ -30,6 +30,7 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 | [Maison KOSÉ](https://maison.kose.co.jp) | [Kosé scraper](https://github.com/2scraper/kose-scraper) | Japanese cosmetics: brand catalogues, cross-brand tag facets & product pages — prices, stock, both consumption-tax rates, volumes & colourways; runs with no key or proxy |
 | [StockX](https://stockx.com) | [StockX scraper](https://github.com/2scraper/stockx-scraper) | Search, category browse & product pages — live market data (lowest ask, highest bid, last sale, 90-day stats); runs with no key or proxy |
 | [Andie Swim](https://andieswim.com) | [Andie Swim scraper](https://github.com/2scraper/andieswim-scraper) | Swimwear collections, search & products — one row per size with its own stock, prices set per market across 200 markets, was-prices & discounts; runs with no key or proxy |
+| [Rakuten](https://www.rakuten.co.jp) | [Rakuten scraper](https://github.com/2scraper/rakuten-scraper) | Japan's largest marketplace: keyword & genre listings plus product pages — prices, Rakuten points, shipping, shops, review scores & per-variant pricing; runs with no key or proxy |
 
 ### 🏠 Real Estate & Classifieds
 | Platform | Link | Description |
