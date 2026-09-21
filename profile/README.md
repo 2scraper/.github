@@ -51,6 +51,7 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 | [Medium](https://medium.com) | [Medium scraper](https://github.com/2scraper/medium-scraper)  |Articles, authors, publication metadata |
 | [BBB](https://bbb.org) | [BBB scraper](https://github.com/2scraper/bbb-scraper)  | Business listings, BBB ratings, accreditation & complaint counts |
 | [Weibo](https://weibo.com) | [Weibo scraper](https://github.com/2scraper/weibo-scraper) | Chinese microblogging: the public hot feed, an account's posts & a post's comments — engagement counts, regions, topics & the full post text recovered where the site truncates it; runs with no key, proxy or account |
+| [YouTube](https://youtube.com) | [YouTube scraper](https://github.com/2scraper/youtube-scraper) | Comment threads & replies, video metadata & video search — pinned, hearted & verified flags, both of the site's orderings, and the exact upload date the comments themselves do not carry; runs with no key, proxy or account |
 
 ### 📈 Finance & Prediction Markets
 | Platform | Link | Description |
