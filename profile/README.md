@@ -1,133 +1,99 @@
+<div align="center">
+  <img src="https://github.com/2scraper.png" width="96" alt="2scraper logo">
 
-# 2Scraper Company repositories
+  <h1>2scraper</h1>
 
-Get started with 2scraper using our ready to use repositories
+  <p><strong>Open-source web scrapers for real-world websites.</strong></p>
+  <p>Turn products, listings, comments, prices, and market data into clean JSON or CSV.</p>
 
-## 🧩 Who We Are
+  <p>
+    <a href="#scraper-directory"><strong>Browse scrapers</strong></a>
+    ·
+    <a href="https://github.com/2scraper/.github/issues/new?title=%5BScraper%20request%5D%20"><strong>Request a website</strong></a>
+    ·
+    <a href="#contributing"><strong>Contribute</strong></a>
+  </p>
 
-**2scraper** is a data extraction company specializing in building fast, reliable, and maintainable scrapers for the world's most popular websites. We turn raw, unstructured web content into clean, structured datasets — so you can focus on insights, not scraping.
-
-Whether you need product listings, marketplace data, community content, or pricing intelligence, we've got a scraper for that.
-
----
-
-## 🌐 Platforms We Support
-
-We provide ready-to-use scrapers for a growing list of platforms across e-commerce, classifieds, travel, food, finance, and more:
-
-### 🛒 E-Commerce & Marketplaces
-| Platform | Link | Description |
-|----------|-------------|-------------|
-| [Amazon](https://amazon.com) | [Amazon scraper](https://github.com/2scraper/amazon-scraper) | Search, best sellers, products & public reviews — 21 marketplaces |
-| [MediaMarkt](https://www.mediamarkt.de) | [MediaMarkt scraper](https://github.com/2scraper/mediamarkt-scraper) | Category grids, search & product pages — 10 country sites, 5 currencies |
-| [Etsy](https://etsy.com) | [Etsy scraper](https://github.com/2scraper/etsy-scraper) | Search, categories, shop fronts & listings — sponsored placements flagged, DataDome-aware |
-| [Tokopedia](https://tokopedia.com) | [Tokopedia scraper](https://github.com/2scraper/tokopedia-scraper) | Indonesian e-commerce product data |
-| [Catawiki](https://catawiki.com) | [Catawiki scraper](https://github.com/2scraper/catawiki-scraper) | Auction lots, bids, reserves, estimates & sellers — 18 locales, whole auctions in one request |
-| [OpenSea](https://opensea.io) | [OpenSea scraper](https://github.com/2scraper/opensea-scraper) | NFT items, collection rankings & activity feeds — floor prices, offers, last sales, traits & rarity ranks across chains; runs with no key or proxy |
-| [Spinny](https://spinny.com) | [Spinny scraper](https://github.com/2scraper/spinny-scraper) | Used-car city & filtered listings plus car detail pages — exact odometer, owner count & insurance; runs with no key or proxy |
-| [Farfetch](https://farfetch.com) | [Farfetch scraper](https://github.com/2scraper/farfetch-scraper) | Luxury fashion listings — pricing, discounts, availability |
-| [Montblanc](https://montblanc.com) | [Montblanc scraper](https://github.com/2scraper/montblanc-scraper) | Category listings, search & product pages — prices set per market across 70+ locales, stock, collections and one row per variant with its own price; runs with no key or proxy |
-| [Maison KOSÉ](https://maison.kose.co.jp) | [Kosé scraper](https://github.com/2scraper/kose-scraper) | Japanese cosmetics: brand catalogues, cross-brand tag facets & product pages — prices, stock, both consumption-tax rates, volumes & colourways; runs with no key or proxy |
-| [StockX](https://stockx.com) | [StockX scraper](https://github.com/2scraper/stockx-scraper) | Search, category browse & product pages — live market data (lowest ask, highest bid, last sale, 90-day stats); runs with no key or proxy |
-| [Andie Swim](https://andieswim.com) | [Andie Swim scraper](https://github.com/2scraper/andieswim-scraper) | Swimwear collections, search & products — one row per size with its own stock, prices set per market across 200 markets, was-prices & discounts; runs with no key or proxy |
-| [Rakuten](https://www.rakuten.co.jp) | [Rakuten scraper](https://github.com/2scraper/rakuten-scraper) | Japan's largest marketplace: keyword & genre listings plus product pages — prices, Rakuten points, shipping, shops, review scores & per-variant pricing; runs with no key or proxy |
-| [LG](https://www.lg.com) | [LG scraper](https://github.com/2scraper/lg-scraper) | Manufacturer catalogue pages on the /ru and /ua platforms — model codes, model year, screen & sibling sizes and categories straight from the site's own catalogue API, no browser needed; LG publishes no prices there, so that column stays null; runs with no key or proxy |
-| [Google Play](https://play.google.com) | [Google Play scraper](https://github.com/2scraper/googleplay-scraper) | Android app store: category grids, search, app pages, developer catalogues & unbounded review histories — exact install counts, rating histograms, in-app-purchase ranges and ratings that differ per country for the same app; runs with no key, proxy or account |
-
-### 🏠 Real Estate & Classifieds
-| Platform | Link | Description |
-|----------|-------------|-------------|
-| [Craigslist](https://craigslist.org) | [Craigslist scraper](https://github.com/2scraper/craigslist-scraper) | Result lists & adverts across 714 areas — for sale, housing, jobs, services; JSON-LD prices, coordinates & 5 currencies; runs with no key or proxy |
-| [Dubizzle](https://dubizzle.com) | [Dubizzle scraper](https://github.com/2scraper/dubizzle-scraper) | Middle East classifieds — property & vehicles |
-| [VRBO](https://vrbo.com) | [VRBO scraper](https://github.com/2scraper/vrbo-scraper) | Vacation rental listings and pricing |
-
-### 🍔 Food & Delivery
-| Platform | Link | Description |
-|----------|-------------|-------------|
-| [foodpanda](https://foodpanda.com) | [foodpanda scraper](https://github.com/2scraper/foodpanda-scraper) | Restaurant & shop listings across 10 Asian country sites — ratings, cuisines, deals, delivery fees & opening state; JSON/CSV, runs with no key or proxy |
-
-### 💬 Community & Knowledge
-| Platform | Link | Description |
-|----------|-------------|-------------|
-| [Quora](https://quora.com) | [Quora scraper](https://github.com/2scraper/quora-scraper)  | Questions, answers, and topic data |
-| [Medium](https://medium.com) | [Medium scraper](https://github.com/2scraper/medium-scraper)  |Articles, authors, publication metadata |
-| [BBB](https://bbb.org) | [BBB scraper](https://github.com/2scraper/bbb-scraper)  | Business listings, BBB ratings, accreditation & complaint counts |
-| [Weibo](https://weibo.com) | [Weibo scraper](https://github.com/2scraper/weibo-scraper) | Chinese microblogging: the public hot feed, an account's posts & a post's comments — engagement counts, regions, topics & the full post text recovered where the site truncates it; runs with no key, proxy or account |
-| [YouTube](https://youtube.com) | [YouTube scraper](https://github.com/2scraper/youtube-scraper) | Comment threads & replies, video metadata & video search — pinned, hearted & verified flags, both of the site's orderings, and the exact upload date the comments themselves do not carry; runs with no key, proxy or account |
-
-### 📈 Finance & Prediction Markets
-| Platform | Link | Description |
-|----------|-------------|-------------|
-| [Polymarket](https://polymarket.com) | [Polymarket scraper](https://github.com/2scraper/polymarket-scraper) | Prediction market contracts & probabilities |
-| [Google Finance](https://www.google.com/finance) | [Google Finance scraper](https://github.com/2scraper/google-finance-scraper) | Instrument quotes, quarterly financials, analyst ratings & price targets, intraday and daily OHLCV, market index & sector strips, FX, crypto, futures, movers and the earnings calendar — seven modes out of one server-rendered payload; a named market is a query parameter, so it runs with no key, proxy or account |
-
-### 🚀 Crowdfunding
-| Platform | Link | Description |
-|----------|-------------|-------------|
-| [Indiegogo](https://indiegogo.com) | [Indiegogo scraper](https://github.com/2scraper/indiegogo-scraper) | Project search, campaign pages & reward tiers — funding totals, goals, backers, deadlines; Cloudflare Turnstile handled, runs with no key or proxy |
-
-### 🛍️ Grocery & Retail
-| Platform | Link | Description |
-|----------|-------------|-------------|
-| [Woolworths AU](https://woolworths.com.au) | [Woolworths scraper](https://github.com/2scraper/woolworths-scraper) | Australian grocery products & pricing | 
-| [Sleep Number](https://sleepnumber.com) | [Sleep Number scraper](https://github.com/2scraper/sleepnumber-scraper) | Smart beds, mattresses, bedding & furniture — one row per size variant with its own price, sale price, rating & availability |
-| [Lidl US](https://www.lidl.com) | [Lidl scraper](https://github.com/2scraper/lidl-scraper) | Grocery search & category browsing — brand, price, unit price & pack size per product from the tile's own data; no bot challenge met on the site, runs with no key or proxy |
-
-### 💼 Jobs & Hiring
-| Platform | Link | Description |
-|----------|-------------|-------------|
-| [Wellfound](https://wellfound.com) | [Wellfound scraper](https://github.com/2scraper/wellfound-scraper) | Startup job listings (formerly AngelList Talent) — role landing pages, the jobs feed & individual jobs; salary AND equity ranges, company size, badges & full descriptions |
-| [Just Join IT](https://justjoin.it) | [justjoin scraper](https://github.com/2scraper/justjoin-scraper) | Polish IT job board — salaries in the currency the employer quoted, per-skill levels, seniority, languages & multi-city postings; the board's own facet counts; runs with no key or proxy |
-| [Mercor](https://mercor.com) | [Mercor scraper](https://github.com/2scraper/mercor-scraper) | AI-talent marketplace — contract roles with hourly rates, the site's own domain categories, work & residence eligibility and slot counts, plus Mercor's own corporate openings; runs with no key or proxy |
-
-### ⚽ Sports & Athletics
-| Platform | Link | Description |
-|----------|-------------|-------------|
-| [Transfermarkt](https://transfermarkt.com) | [Transfermarkt scraper](https://github.com/2scraper/transfermarkt-scraper) | Player market values, club squads, the transfer ledger & full player profiles — 5 locale sites, JSON/CSV |
-
-> 🚀 **...and many more platforms are added regularly.** Don't see your target site? [Open a request →](#)
+  <p>
+    <img src="https://img.shields.io/badge/scrapers-30%2B-0969da?style=flat-square" alt="30+ scrapers">
+    <img src="https://img.shields.io/badge/Python-powered-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python powered">
+    <img src="https://img.shields.io/badge/output-JSON%20%7C%20CSV-1f883d?style=flat-square" alt="JSON and CSV output">
+    <img src="https://img.shields.io/badge/open-source-f6f8fa?style=flat-square" alt="Open source">
+  </p>
+</div>
 
 ---
 
-## ⚙️ What We Deliver
+## Web data, without rebuilding the plumbing
 
-- ✅ **Structured output** — JSON, CSV, or custom formats
-- ✅ **Consistent schemas** — predictable fields across runs
-- ✅ **Maintained scrapers** — updated when sites change
-- ✅ **High reliability** — handles pagination, dynamic content & anti-bot measures
-- ✅ **Custom scrapers on request** — just ask
+**2scraper** is a collection of focused, ready-to-run scrapers for popular websites. Each repository targets one platform and documents the supported pages, captured fields, setup, and output—so you can spend less time reverse-engineering websites and more time using the data.
+
+| | |
+|---|---|
+| **⚡ Ready to run**<br>Clone a repository, follow its quick start, and collect data on your own infrastructure. | **📦 Structured by default**<br>Predictable records in JSON or CSV, with schemas and sample output where available. |
+| **🧰 Multiple execution paths**<br>Playwright, Selenium, Puppeteer, direct APIs, or remote browsers—depending on the target. | **🛡️ Built for real websites**<br>Pagination, dynamic content, proxies, fingerprints, and CAPTCHA flows where the site requires them. |
+
+## Start in three steps
+
+1. Pick a target from the [scraper directory](#scraper-directory).
+2. Open its repository and follow the quick-start guide.
+3. Run locally, then add the optional browser, proxy, or CAPTCHA setup documented for that target.
+
+> Support differs by repository. The README in each scraper is the source of truth for engines, locales, fields, and infrastructure requirements.
+
+## Featured scrapers
+
+| Repository | What it extracts |
+|---|---|
+| [**Amazon**](https://github.com/2scraper/amazon-scraper) | Search results, best sellers, product pages, and public reviews across 21 marketplaces |
+| [**YouTube**](https://github.com/2scraper/youtube-scraper) | Comment threads and replies, video metadata, and video search |
+| [**Catawiki**](https://github.com/2scraper/catawiki-scraper) | Auction lots, bids, reserves, estimates, and seller data |
+| [**StockX**](https://github.com/2scraper/stockx-scraper) | Products, asks, bids, last sales, and market statistics |
+| [**Transfermarkt**](https://github.com/2scraper/transfermarkt-scraper) | Player profiles, market values, club squads, and transfers |
+| [**Medium**](https://github.com/2scraper/medium-scraper) | Stories, authors, publications, tag feeds, and full article text |
+
+## Scraper directory
+
+All public platform scrapers, grouped by their primary use case.
+
+| Category | Repositories |
+|---|---|
+| **E-commerce & retail** | [Amazon](https://github.com/2scraper/amazon-scraper) · [Andie Swim](https://github.com/2scraper/andieswim-scraper) · [Bershka](https://github.com/2scraper/bershka-scraper) · [Catawiki](https://github.com/2scraper/catawiki-scraper) · [Etsy](https://github.com/2scraper/etsy-scraper) · [Farfetch](https://github.com/2scraper/farfetch-scraper) · [Givenchy](https://github.com/2scraper/givenchy-scraper)<br>[Google Play](https://github.com/2scraper/googleplay-scraper) · [Home Depot](https://github.com/2scraper/homedepot-scraper) · [Maison KOSÉ](https://github.com/2scraper/kose-scraper) · [LG](https://github.com/2scraper/lg-scraper) · [Lidl](https://github.com/2scraper/lidl-scraper) · [MediaMarkt](https://github.com/2scraper/mediamarkt-scraper) · [Montblanc](https://github.com/2scraper/montblanc-scraper)<br>[OpenSea](https://github.com/2scraper/opensea-scraper) · [Rakuten](https://github.com/2scraper/rakuten-scraper) · [Sleep Number](https://github.com/2scraper/sleepnumber-scraper) · [StockX](https://github.com/2scraper/stockx-scraper) · [Tokopedia](https://github.com/2scraper/tokopedia-scraper) · [Woolworths](https://github.com/2scraper/woolworths-scraper) |
+| **Classifieds, property & travel** | [Craigslist](https://github.com/2scraper/craigslist-scraper) · [Dubizzle](https://github.com/2scraper/dubizzle-scraper) · [Flippa](https://github.com/2scraper/flippa-scraper) · [Spinny](https://github.com/2scraper/spinny-scraper) · [Vrbo](https://github.com/2scraper/vrbo-scraper) · [Zimmo](https://github.com/2scraper/zimmo-scraper) |
+| **Food & delivery** | [foodpanda](https://github.com/2scraper/foodpanda-scraper) |
+| **Publishing, community & video** | [BBB](https://github.com/2scraper/bbb-scraper) · [Medium](https://github.com/2scraper/medium-scraper) · [Quora](https://github.com/2scraper/quora-scraper) · [Weibo](https://github.com/2scraper/weibo-scraper) · [YouTube](https://github.com/2scraper/youtube-scraper) |
+| **Jobs & hiring** | [Just Join IT](https://github.com/2scraper/justjoin-scraper) · [Mercor](https://github.com/2scraper/mercor-scraper) · [Wellfound](https://github.com/2scraper/wellfound-scraper) |
+| **Finance & fundraising** | [Google Finance](https://github.com/2scraper/google-finance-scraper) · [Indiegogo](https://github.com/2scraper/indiegogo-scraper) · [Polymarket](https://github.com/2scraper/polymarket-scraper) |
+| **Sports** | [Transfermarkt](https://github.com/2scraper/transfermarkt-scraper) |
+
+<p align="right"><a href="https://github.com/orgs/2scraper/repositories"><strong>View all repositories →</strong></a></p>
+
+## Built to fit your workflow
+
+Most repositories include:
+
+- a runnable Python implementation and command-line examples;
+- JSON and CSV output with documented fields;
+- sample records for a quick look at the data;
+- pagination and dynamic-content handling tailored to the target;
+- optional integrations for [2Captcha](https://2captcha.com/), [2prx](https://2prx.com/), fingerprints, or a remote browser when needed.
+
+Every scraper can be used on your own infrastructure. Paid services are optional unless a repository explicitly says otherwise.
+
+## Need another website?
+
+If the target is not listed, [open a scraper request](https://github.com/2scraper/.github/issues/new?title=%5BScraper%20request%5D%20) with the website, pages you need, desired fields, and expected scale. For a private or custom extraction project, [start an inquiry](https://github.com/2scraper/.github/issues/new?title=%5BInquiry%5D%20).
+
+## Contributing
+
+- **Found a bug?** Open an issue in the affected scraper repository and include the URL, command, and relevant log output.
+- **Want to improve a scraper?** Fork the repository and send a focused pull request.
+- **Missing a platform?** [Request it here](https://github.com/2scraper/.github/issues/new?title=%5BScraper%20request%5D%20).
+
+Please use scraped data responsibly and follow the target website's terms and applicable laws.
 
 ---
 
-## 📁 Repository Structure
-
-Our repositories follow a consistent naming pattern:
-
-```
-2scraper/<platform>-scraper
-```
-
-Each repo includes:
-- 📄 Full documentation & field reference
-- 🧪 Sample output files
-- 🐍 Python-based implementation (where applicable)
-- 🔄 Changelog tracking site structure updates
-
----
-
-## 🤝 Get Involved
-
-We welcome contributions, issue reports, and scraper requests from the community.
-
-- 🐛 **Found a broken scraper?** Open an issue in the relevant repo.
-- 💡 **Need a new site parsed?** Submit a feature request.
-- 🔧 **Want to contribute?** PRs are always welcome — check our contribution guidelines.
-
----
-
-## 📬 Contact Us
-
-Have a project in mind or need enterprise-scale data extraction?
-
-> 📧 Reach out via GitHub Discussions or open an issue tagged `[inquiry]`.
-
+<p align="center">
+  Built for developers and data teams who would rather use the data than fight the page.
+</p>
