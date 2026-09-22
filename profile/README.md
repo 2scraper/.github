@@ -32,6 +32,7 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 | [Andie Swim](https://andieswim.com) | [Andie Swim scraper](https://github.com/2scraper/andieswim-scraper) | Swimwear collections, search & products — one row per size with its own stock, prices set per market across 200 markets, was-prices & discounts; runs with no key or proxy |
 | [Rakuten](https://www.rakuten.co.jp) | [Rakuten scraper](https://github.com/2scraper/rakuten-scraper) | Japan's largest marketplace: keyword & genre listings plus product pages — prices, Rakuten points, shipping, shops, review scores & per-variant pricing; runs with no key or proxy |
 | [LG](https://www.lg.com) | [LG scraper](https://github.com/2scraper/lg-scraper) | Manufacturer catalogue pages on the /ru and /ua platforms — model codes, model year, screen & sibling sizes and categories straight from the site's own catalogue API, no browser needed; LG publishes no prices there, so that column stays null; runs with no key or proxy |
+| [Google Play](https://play.google.com) | [Google Play scraper](https://github.com/2scraper/googleplay-scraper) | Android app store: category grids, search, app pages, developer catalogues & unbounded review histories — exact install counts, rating histograms, in-app-purchase ranges and ratings that differ per country for the same app; runs with no key, proxy or account |
 
 ### 🏠 Real Estate & Classifieds
 | Platform | Link | Description |
