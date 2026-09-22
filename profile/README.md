@@ -59,6 +59,7 @@ We provide ready-to-use scrapers for a growing list of platforms across e-commer
 | Platform | Link | Description |
 |----------|-------------|-------------|
 | [Polymarket](https://polymarket.com) | [Polymarket scraper](https://github.com/2scraper/polymarket-scraper) | Prediction market contracts & probabilities |
+| [Google Finance](https://www.google.com/finance) | [Google Finance scraper](https://github.com/2scraper/google-finance-scraper) | Instrument quotes, quarterly financials, analyst ratings & price targets, intraday and daily OHLCV, market index & sector strips, FX, crypto, futures, movers and the earnings calendar — seven modes out of one server-rendered payload; a named market is a query parameter, so it runs with no key, proxy or account |
 
 ### 🚀 Crowdfunding
 | Platform | Link | Description |
