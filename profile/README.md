@@ -7,11 +7,11 @@
   <p>Turn products, listings, comments, prices, and market data into clean JSON or CSV.</p>
 
   <p>
-    <a href="#scraper-directory"><strong>Browse scrapers</strong></a>
+    <a href="#user-content-scraper-directory"><strong>Browse scrapers</strong></a>
     ·
     <a href="https://github.com/2scraper/.github/issues/new?title=%5BScraper%20request%5D%20"><strong>Request a website</strong></a>
     ·
-    <a href="#contributing"><strong>Contribute</strong></a>
+    <a href="#user-content-contributing"><strong>Contribute</strong></a>
   </p>
 
   <p>
@@ -35,7 +35,7 @@
 
 ## Start in three steps
 
-1. Pick a target from the [scraper directory](#scraper-directory).
+1. Pick a target from the [scraper directory](#user-content-scraper-directory).
 2. Open its repository and follow the quick-start guide.
 3. Run locally, then add the optional browser, proxy, or CAPTCHA setup documented for that target.
 
@@ -45,25 +45,25 @@
 
 | Repository | What it extracts |
 |---|---|
-| [**Amazon**](https://github.com/2scraper/amazon-scraper) | Search results, best sellers, product pages, and public reviews across 21 marketplaces |
-| [**YouTube**](https://github.com/2scraper/youtube-scraper) | Comment threads and replies, video metadata, and video search |
-| [**Catawiki**](https://github.com/2scraper/catawiki-scraper) | Auction lots, bids, reserves, estimates, and seller data |
+| [**Amazon**](https://github.com/2scraper/amazon-scraper) | Search results, best sellers, product pages, and public reviews across 21 marketplaces — runs with no key or proxy |
+| [**YouTube**](https://github.com/2scraper/youtube-scraper) | Comment threads and replies, video metadata, and video search — runs with no key or proxy |
+| [**Catawiki**](https://github.com/2scraper/catawiki-scraper) | Auction lots, bids, reserves, estimates, and seller data — runs with no key or proxy |
 | [**StockX**](https://github.com/2scraper/stockx-scraper) | Products, asks, bids, last sales, and market statistics |
 | [**Transfermarkt**](https://github.com/2scraper/transfermarkt-scraper) | Player profiles, market values, club squads, and transfers |
-| [**Medium**](https://github.com/2scraper/medium-scraper) | Stories, authors, publications, tag feeds, and full article text |
+| [**Medium**](https://github.com/2scraper/medium-scraper) | Stories, authors, publications, tag feeds, and full article text — runs with no key or proxy |
 
 ## Scraper directory
 
-All public platform scrapers, grouped by their primary use case.
+All public platform scrapers, grouped by their primary use case. 🟢 runs with **no API key and no proxy** — measured and dated in that repository's README.
 
 | Category | Repositories |
 |---|---|
-| **E-commerce & retail** | [Amazon](https://github.com/2scraper/amazon-scraper) · [Andie Swim](https://github.com/2scraper/andieswim-scraper) · [Bershka](https://github.com/2scraper/bershka-scraper) · [Catawiki](https://github.com/2scraper/catawiki-scraper) · [Etsy](https://github.com/2scraper/etsy-scraper) · [Farfetch](https://github.com/2scraper/farfetch-scraper) · [Givenchy](https://github.com/2scraper/givenchy-scraper)<br>[Google Play](https://github.com/2scraper/googleplay-scraper) · [Home Depot](https://github.com/2scraper/homedepot-scraper) · [Maison KOSÉ](https://github.com/2scraper/kose-scraper) · [LG](https://github.com/2scraper/lg-scraper) · [Lidl](https://github.com/2scraper/lidl-scraper) · [MediaMarkt](https://github.com/2scraper/mediamarkt-scraper) · [Montblanc](https://github.com/2scraper/montblanc-scraper)<br>[OpenSea](https://github.com/2scraper/opensea-scraper) · [Rakuten](https://github.com/2scraper/rakuten-scraper) · [Sleep Number](https://github.com/2scraper/sleepnumber-scraper) · [StockX](https://github.com/2scraper/stockx-scraper) · [TikTok Shop](https://github.com/2scraper/tiktok-shop-scraper) · [Tokopedia](https://github.com/2scraper/tokopedia-scraper) · [Woolworths](https://github.com/2scraper/woolworths-scraper) |
-| **Classifieds, property & travel** | [Craigslist](https://github.com/2scraper/craigslist-scraper) · [Dubizzle](https://github.com/2scraper/dubizzle-scraper) · [Flippa](https://github.com/2scraper/flippa-scraper) · [Spinny](https://github.com/2scraper/spinny-scraper) · [Vrbo](https://github.com/2scraper/vrbo-scraper) · [Zimmo](https://github.com/2scraper/zimmo-scraper) |
+| **E-commerce & retail** | [Amazon](https://github.com/2scraper/amazon-scraper) 🟢 · [Andie Swim](https://github.com/2scraper/andieswim-scraper) 🟢 · [Bershka](https://github.com/2scraper/bershka-scraper) · [Catawiki](https://github.com/2scraper/catawiki-scraper) 🟢 · [Etsy](https://github.com/2scraper/etsy-scraper) · [Farfetch](https://github.com/2scraper/farfetch-scraper) · [Givenchy](https://github.com/2scraper/givenchy-scraper) 🟢<br>[Google Play](https://github.com/2scraper/googleplay-scraper) 🟢 · [Home Depot](https://github.com/2scraper/homedepot-scraper) · [Maison KOSÉ](https://github.com/2scraper/kose-scraper) 🟢 · [LG](https://github.com/2scraper/lg-scraper) 🟢 · [Lidl](https://github.com/2scraper/lidl-scraper) · [MediaMarkt](https://github.com/2scraper/mediamarkt-scraper) · [Montblanc](https://github.com/2scraper/montblanc-scraper) 🟢<br>[OpenSea](https://github.com/2scraper/opensea-scraper) 🟢 · [Rakuten](https://github.com/2scraper/rakuten-scraper) 🟢 · [Sleep Number](https://github.com/2scraper/sleepnumber-scraper) · [StockX](https://github.com/2scraper/stockx-scraper) · [TikTok Shop](https://github.com/2scraper/tiktok-shop-scraper) · [Tokopedia](https://github.com/2scraper/tokopedia-scraper) · [Woolworths](https://github.com/2scraper/woolworths-scraper) 🟢 |
+| **Classifieds, property & travel** | [Craigslist](https://github.com/2scraper/craigslist-scraper) 🟢 · [Dubizzle](https://github.com/2scraper/dubizzle-scraper) · [Flippa](https://github.com/2scraper/flippa-scraper) 🟢 · [Spinny](https://github.com/2scraper/spinny-scraper) 🟢 · [Vrbo](https://github.com/2scraper/vrbo-scraper) · [Zimmo](https://github.com/2scraper/zimmo-scraper) |
 | **Food & delivery** | [foodpanda](https://github.com/2scraper/foodpanda-scraper) |
-| **Publishing, community & video** | [BBB](https://github.com/2scraper/bbb-scraper) · [Medium](https://github.com/2scraper/medium-scraper) · [Quora](https://github.com/2scraper/quora-scraper) · [TikTok Ad Library](https://github.com/2scraper/tiktok-ads-scraper) · [TikTok profiles](https://github.com/2scraper/tiktok-profile-scraper) · [TikTok videos](https://github.com/2scraper/tiktok-video-scraper) · [Weibo](https://github.com/2scraper/weibo-scraper) · [YouTube](https://github.com/2scraper/youtube-scraper) |
-| **Jobs & hiring** | [Just Join IT](https://github.com/2scraper/justjoin-scraper) · [Mercor](https://github.com/2scraper/mercor-scraper) · [Wellfound](https://github.com/2scraper/wellfound-scraper) |
-| **Finance & fundraising** | [Google Finance](https://github.com/2scraper/google-finance-scraper) · [Indiegogo](https://github.com/2scraper/indiegogo-scraper) · [Polymarket](https://github.com/2scraper/polymarket-scraper) |
+| **Publishing, community & video** | [BBB](https://github.com/2scraper/bbb-scraper) · [Medium](https://github.com/2scraper/medium-scraper) 🟢 · [Quora](https://github.com/2scraper/quora-scraper) 🟢 · [TikTok Ad Library](https://github.com/2scraper/tiktok-ads-scraper) 🟢 · [TikTok profiles](https://github.com/2scraper/tiktok-profile-scraper) 🟢 · [TikTok videos](https://github.com/2scraper/tiktok-video-scraper) 🟢 · [Weibo](https://github.com/2scraper/weibo-scraper) 🟢 · [YouTube](https://github.com/2scraper/youtube-scraper) 🟢 |
+| **Jobs & hiring** | [Just Join IT](https://github.com/2scraper/justjoin-scraper) 🟢 · [Mercor](https://github.com/2scraper/mercor-scraper) 🟢 · [Wellfound](https://github.com/2scraper/wellfound-scraper) |
+| **Finance & fundraising** | [Google Finance](https://github.com/2scraper/google-finance-scraper) 🟢 · [Indiegogo](https://github.com/2scraper/indiegogo-scraper) 🟢 · [Polymarket](https://github.com/2scraper/polymarket-scraper) 🟢 |
 | **Sports** | [Transfermarkt](https://github.com/2scraper/transfermarkt-scraper) |
 
 <p align="right"><a href="https://github.com/orgs/2scraper/repositories"><strong>View all repositories →</strong></a></p>
