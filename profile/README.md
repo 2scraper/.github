@@ -31,7 +31,7 @@
 | | |
 |---|---|
 | **⚡ Ready to run**<br>Clone a repository, follow its quick start, and collect data on your own infrastructure. | **📦 Structured by default**<br>Predictable records in JSON or CSV, with schemas and sample output where available. |
-| **🧰 Multiple execution paths**<br>Playwright, Selenium, Puppeteer, the site's own JSON endpoints, or the 2Captcha Scraping Browser API—depending on the target. | **🛡️ Built for real websites**<br>Pagination, dynamic content, proxies, fingerprints, and CAPTCHA flows where the site requires them. |
+| **🧰 Multiple execution paths**<br>Playwright, Selenium, Puppeteer, the site's own JSON endpoints, or the [2Captcha Scraping Browser API](https://2captcha.com/scraper/browser-api)—depending on the target. | **🛡️ Built for real websites**<br>Pagination, dynamic content, proxies, fingerprints, and CAPTCHA flows where the site requires them. |
 
 ## Start in three steps
 
@@ -56,7 +56,7 @@
 
 All public platform scrapers, grouped by what they are used for.
 
-🟢 runs with **no API key and no proxy** · 🔵 needs the **2Captcha Scraping Browser API** — both measured and dated in that repository's README.
+🟢 runs with **no API key and no proxy** · 🔵 needs the **[2Captcha Scraping Browser API](https://2captcha.com/scraper/browser-api)** — both measured and dated in that repository's README.
 
 ### 🛒 E-commerce & retail
 
@@ -151,7 +151,7 @@ Most repositories include:
 - JSON and CSV output with documented fields;
 - sample records for a quick look at the data;
 - pagination and dynamic-content handling tailored to the target;
-- optional 2Captcha integrations — captcha solving, the Scraping Browser API, [2prx](https://2prx.com/) residential proxies and fingerprints — when a site needs them.
+- optional [2Captcha](https://2captcha.com/) integrations — [captcha solving](https://2captcha.com/), the [Scraping Browser API](https://2captcha.com/scraper/browser-api), [2prx](https://2prx.com/) residential proxies and [fingerprints](https://2captcha.com/s/fingerprints) — when a site needs them.
 
 Every scraper can be used on your own infrastructure. Paid services are optional unless a repository explicitly says otherwise.
 
@@ -161,12 +161,12 @@ Every scraper runs on your own machine first. When a site pushes back, each repo
 
 | Product | What it gives a scraper | Where it matters here |
 |---|---|---|
-| [**Scraping Browser API**](https://2captcha.com/) | A managed Chrome over CDP with its own exit country, persistent profiles and captcha auto-solve — no browser or residential address of your own | The 🔵 scrapers, and any server-side pipeline that cannot run a headful browser from a home address |
+| [**Scraping Browser API**](https://2captcha.com/scraper/browser-api) | A managed Chrome over CDP with its own exit country, persistent profiles and captcha auto-solve — no browser or residential address of your own | The 🔵 scrapers, and any server-side pipeline that cannot run a headful browser from a home address |
 | [**Captcha solving**](https://2captcha.com/) | Tokens for reCAPTCHA, Cloudflare Turnstile and other challenge widgets | Sites that put a challenge widget in front of their pages |
 | [**Residential proxies**](https://2prx.com/) | Residential exits by country | Sites that refuse datacentre addresses — the repositories without 🟢 say so |
-| [**Fingerprints**](https://2captcha.com/) | A consistent, self-consistent browser identity | Volume across many sessions |
+| [**Fingerprints**](https://2captcha.com/s/fingerprints) | A consistent, self-consistent browser identity | Volume across many sessions |
 
-The four are billed separately; one 2Captcha account covers them.
+The four are billed separately; one [2Captcha account](https://2captcha.com/) covers them.
 
 ## Need another website?
 
