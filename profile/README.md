@@ -31,7 +31,7 @@
 | | |
 |---|---|
 | **⚡ Ready to run**<br>Clone a repository, follow its quick start, and collect data on your own infrastructure. | **📦 Structured by default**<br>Predictable records in JSON or CSV, with schemas and sample output where available. |
-| **🧰 Multiple execution paths**<br>Playwright, Selenium, Puppeteer, direct APIs, or remote browsers—depending on the target. | **🛡️ Built for real websites**<br>Pagination, dynamic content, proxies, fingerprints, and CAPTCHA flows where the site requires them. |
+| **🧰 Multiple execution paths**<br>Playwright, Selenium, Puppeteer, the site's own JSON endpoints, or the 2Captcha Scraping Browser API—depending on the target. | **🛡️ Built for real websites**<br>Pagination, dynamic content, proxies, fingerprints, and CAPTCHA flows where the site requires them. |
 
 ## Start in three steps
 
@@ -54,17 +54,92 @@
 
 ## Scraper directory
 
-All public platform scrapers, grouped by their primary use case. 🟢 runs with **no API key and no proxy** — measured and dated in that repository's README.
+All public platform scrapers, grouped by what they are used for.
 
-| Category | Repositories |
+🟢 runs with **no API key and no proxy** · 🔵 needs the **2Captcha Scraping Browser API** — both measured and dated in that repository's README.
+
+### 🛒 E-commerce & retail
+
+| Scraper | What it extracts |
 |---|---|
-| **E-commerce & retail** | [Amazon](https://github.com/2scraper/amazon-scraper) 🟢 · [Andie Swim](https://github.com/2scraper/andieswim-scraper) 🟢 · [Bershka](https://github.com/2scraper/bershka-scraper) · [Catawiki](https://github.com/2scraper/catawiki-scraper) 🟢 · [Etsy](https://github.com/2scraper/etsy-scraper) · [Farfetch](https://github.com/2scraper/farfetch-scraper) · [Givenchy](https://github.com/2scraper/givenchy-scraper) 🟢<br>[Google Play](https://github.com/2scraper/googleplay-scraper) 🟢 · [Home Depot](https://github.com/2scraper/homedepot-scraper) · [Maison KOSÉ](https://github.com/2scraper/kose-scraper) 🟢 · [LG](https://github.com/2scraper/lg-scraper) 🟢 · [Lidl](https://github.com/2scraper/lidl-scraper) · [MediaMarkt](https://github.com/2scraper/mediamarkt-scraper) · [Montblanc](https://github.com/2scraper/montblanc-scraper) 🟢<br>[OpenSea](https://github.com/2scraper/opensea-scraper) 🟢 · [Rakuten](https://github.com/2scraper/rakuten-scraper) 🟢 · [Sleep Number](https://github.com/2scraper/sleepnumber-scraper) · [StockX](https://github.com/2scraper/stockx-scraper) · [TikTok Shop](https://github.com/2scraper/tiktok-shop-scraper) · [Tokopedia](https://github.com/2scraper/tokopedia-scraper) · [Woolworths](https://github.com/2scraper/woolworths-scraper) 🟢 |
-| **Classifieds, property & travel** | [Craigslist](https://github.com/2scraper/craigslist-scraper) 🟢 · [Dubizzle](https://github.com/2scraper/dubizzle-scraper) · [Flippa](https://github.com/2scraper/flippa-scraper) 🟢 · [Spinny](https://github.com/2scraper/spinny-scraper) 🟢 · [Vrbo](https://github.com/2scraper/vrbo-scraper) · [Zimmo](https://github.com/2scraper/zimmo-scraper) |
-| **Food & delivery** | [foodpanda](https://github.com/2scraper/foodpanda-scraper) |
-| **Publishing, community & video** | [BBB](https://github.com/2scraper/bbb-scraper) · [Medium](https://github.com/2scraper/medium-scraper) 🟢 · [Quora](https://github.com/2scraper/quora-scraper) 🟢 · [TikTok Ad Library](https://github.com/2scraper/tiktok-ads-scraper) 🟢 · [TikTok profiles](https://github.com/2scraper/tiktok-profile-scraper) 🟢 · [TikTok videos](https://github.com/2scraper/tiktok-video-scraper) 🟢 · [Weibo](https://github.com/2scraper/weibo-scraper) 🟢 · [YouTube](https://github.com/2scraper/youtube-scraper) 🟢 |
-| **Jobs & hiring** | [Just Join IT](https://github.com/2scraper/justjoin-scraper) 🟢 · [Mercor](https://github.com/2scraper/mercor-scraper) 🟢 · [Wellfound](https://github.com/2scraper/wellfound-scraper) |
-| **Finance & fundraising** | [Google Finance](https://github.com/2scraper/google-finance-scraper) 🟢 · [Indiegogo](https://github.com/2scraper/indiegogo-scraper) 🟢 · [Polymarket](https://github.com/2scraper/polymarket-scraper) 🟢 |
-| **Sports** | [Transfermarkt](https://github.com/2scraper/transfermarkt-scraper) |
+| [**Amazon**](https://github.com/2scraper/amazon-scraper) 🟢 | Search results, best sellers, product pages and reviews |
+| [**Andie Swim**](https://github.com/2scraper/andieswim-scraper) 🟢 | Swimwear listings, per-size stock and prices |
+| [**Bershka**](https://github.com/2scraper/bershka-scraper) | Inditex catalogue, one row per SKU |
+| [**Catawiki**](https://github.com/2scraper/catawiki-scraper) 🟢 | Auction lots, bids, reserves, estimates, sellers |
+| [**Etsy**](https://github.com/2scraper/etsy-scraper) 🔵 | Search, category, shop and listing pages |
+| [**Farfetch**](https://github.com/2scraper/farfetch-scraper) | Fashion listings and product pages with prices |
+| [**Givenchy**](https://github.com/2scraper/givenchy-scraper) 🟢 | Beauty products and prices |
+| [**Home Depot**](https://github.com/2scraper/homedepot-scraper) | Category listings and product pages, prices, specs |
+| [**Maison KOSÉ**](https://github.com/2scraper/kose-scraper) 🟢 | Japanese cosmetics: products, prices, brands, stock |
+| [**LG**](https://github.com/2scraper/lg-scraper) 🟢 | Catalogue models, sizes and categories |
+| [**Lidl**](https://github.com/2scraper/lidl-scraper) | US grocery products, prices, unit prices |
+| [**MediaMarkt**](https://github.com/2scraper/mediamarkt-scraper) | Electronics listings and product pages, prices |
+| [**Montblanc**](https://github.com/2scraper/montblanc-scraper) 🟢 | Per-market prices, stock, collections, variants |
+| [**Rakuten**](https://github.com/2scraper/rakuten-scraper) 🟢 | Ichiba products, prices, points, shops, reviews |
+| [**Sleep Number**](https://github.com/2scraper/sleepnumber-scraper) | Smart beds and mattresses: per-size prices, ratings |
+| [**StockX**](https://github.com/2scraper/stockx-scraper) | Sneaker listings and products: asks, bids, last sale |
+| [**TikTok Shop**](https://github.com/2scraper/tiktok-shop-scraper) 🔵 | Products, prices, units sold, sellers |
+| [**Tokopedia**](https://github.com/2scraper/tokopedia-scraper) 🔵 | Indonesian marketplace: search, category, product pages |
+| [**Woolworths**](https://github.com/2scraper/woolworths-scraper) 🟢 | Supermarket products, prices, unit prices, specials |
+
+### 🏠 Classifieds, property & travel
+
+| Scraper | What it extracts |
+|---|---|
+| [**Craigslist**](https://github.com/2scraper/craigslist-scraper) 🟢 | Classified listings and postings |
+| [**dubizzle**](https://github.com/2scraper/dubizzle-scraper) | UAE classifieds: cars, property, jobs |
+| [**Flippa**](https://github.com/2scraper/flippa-scraper) 🟢 | Online businesses, websites, apps and domains for sale |
+| [**Spinny**](https://github.com/2scraper/spinny-scraper) 🟢 | Used-car listings and car pages, prices |
+| [**Vrbo**](https://github.com/2scraper/vrbo-scraper) | Vacation-rental search grids and property pages |
+| [**Zimmo**](https://github.com/2scraper/zimmo-scraper) | Belgian property listings: prices, area, bedrooms, EPC |
+
+### 🍔 Food & delivery
+
+| Scraper | What it extracts |
+|---|---|
+| [**foodpanda**](https://github.com/2scraper/foodpanda-scraper) | Restaurant listings, ratings, cuisines, deals |
+
+### 📱 Apps, social & video
+
+| Scraper | What it extracts |
+|---|---|
+| [**Google Play**](https://github.com/2scraper/googleplay-scraper) 🟢 | App listings, search, installs, ratings and reviews |
+| [**TikTok Ad Library**](https://github.com/2scraper/tiktok-ads-scraper) 🟢 | EU ads, advertisers, creatives, reach |
+| [**TikTok profiles**](https://github.com/2scraper/tiktok-profile-scraper) 🟢 | Exact follower, like and video counts, bio |
+| [**TikTok videos**](https://github.com/2scraper/tiktok-video-scraper) 🟢 | Captions, engagement, hashtags, subtitles, media URLs |
+| [**Weibo**](https://github.com/2scraper/weibo-scraper) 🟢 | Hot feed, account timelines, comments, engagement |
+| [**YouTube**](https://github.com/2scraper/youtube-scraper) 🟢 | Comment threads and replies, video metadata, search |
+
+### 📝 Publishing & Q&A
+
+| Scraper | What it extracts |
+|---|---|
+| [**Medium**](https://github.com/2scraper/medium-scraper) 🟢 | Tag feeds, archives, author pages, full story text |
+| [**Quora**](https://github.com/2scraper/quora-scraper) 🟢 | Answers from questions, profiles and topics |
+
+### 💼 Jobs & business directories
+
+| Scraper | What it extracts |
+|---|---|
+| [**BBB**](https://github.com/2scraper/bbb-scraper) | Business listings, BBB ratings, accreditation, complaints |
+| [**Just Join IT**](https://github.com/2scraper/justjoin-scraper) 🟢 | IT job offers with salaries, skills, seniority |
+| [**Mercor**](https://github.com/2scraper/mercor-scraper) 🟢 | Contract roles, rates, eligibility, corporate openings |
+| [**Wellfound**](https://github.com/2scraper/wellfound-scraper) | Startup jobs with salary and equity ranges |
+
+### 📈 Finance, markets & fundraising
+
+| Scraper | What it extracts |
+|---|---|
+| [**Google Finance**](https://github.com/2scraper/google-finance-scraper) 🟢 | Quotes, financials, analyst ratings, OHLCV, FX |
+| [**Indiegogo**](https://github.com/2scraper/indiegogo-scraper) 🟢 | Campaigns, funding totals, backers, reward tiers |
+| [**OpenSea**](https://github.com/2scraper/opensea-scraper) 🟢 | NFT floor prices, offers, sales history, rankings |
+| [**Polymarket**](https://github.com/2scraper/polymarket-scraper) 🟢 | Prediction-market prices, order books, token ids |
+
+### ⚽ Sports
+
+| Scraper | What it extracts |
+|---|---|
+| [**Transfermarkt**](https://github.com/2scraper/transfermarkt-scraper) | Market values, squads, transfers, player profiles |
 
 <p align="right"><a href="https://github.com/orgs/2scraper/repositories"><strong>View all repositories →</strong></a></p>
 
@@ -76,9 +151,22 @@ Most repositories include:
 - JSON and CSV output with documented fields;
 - sample records for a quick look at the data;
 - pagination and dynamic-content handling tailored to the target;
-- optional integrations for [2Captcha](https://2captcha.com/), [2prx](https://2prx.com/), fingerprints, or a remote browser when needed.
+- optional 2Captcha integrations — captcha solving, the Scraping Browser API, [2prx](https://2prx.com/) residential proxies and fingerprints — when a site needs them.
 
 Every scraper can be used on your own infrastructure. Paid services are optional unless a repository explicitly says otherwise.
+
+## 2Captcha products, one account
+
+Every scraper runs on your own machine first. When a site pushes back, each repository says which of these helps — and which does not — with the measurement behind it.
+
+| Product | What it gives a scraper | Where it matters here |
+|---|---|---|
+| [**Scraping Browser API**](https://2captcha.com/) | A managed Chrome over CDP with its own exit country, persistent profiles and captcha auto-solve — no browser or residential address of your own | The 🔵 scrapers, and any server-side pipeline that cannot run a headful browser from a home address |
+| [**Captcha solving**](https://2captcha.com/) | Tokens for reCAPTCHA, Cloudflare Turnstile and other challenge widgets | Sites that put a challenge widget in front of their pages |
+| [**Residential proxies**](https://2prx.com/) | Residential exits by country | Sites that refuse datacentre addresses — the repositories without 🟢 say so |
+| [**Fingerprints**](https://2captcha.com/) | A consistent, self-consistent browser identity | Volume across many sessions |
+
+The four are billed separately; one 2Captcha account covers them.
 
 ## Need another website?
 
