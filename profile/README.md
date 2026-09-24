@@ -58,6 +58,8 @@ All public platform scrapers, grouped by what they are used for.
 
 🟢 runs with **no API key and no proxy** · 🔵 needs the **[2Captcha Scraping Browser API](https://2captcha.com/scraper/browser-api)** — both measured and dated in that repository's README.
 
+> **One platform can take more than one scraper.** TikTok gates each route differently, so it is covered by four that work side by side: [profiles](https://github.com/2scraper/tiktok-profile-scraper) 🟢, [videos](https://github.com/2scraper/tiktok-video-scraper) 🟢 and the [EU Ad Library](https://github.com/2scraper/tiktok-ads-scraper) 🟢 need no key at all; [TikTok Shop](https://github.com/2scraper/tiktok-shop-scraper) 🔵 is behind a captcha and needs the Scraping Browser.
+
 ### 🛒 E-commerce & retail
 
 | Scraper | What it extracts |
@@ -104,7 +106,7 @@ All public platform scrapers, grouped by what they are used for.
 | Scraper | What it extracts |
 |---|---|
 | [**Google Play**](https://github.com/2scraper/googleplay-scraper) 🟢 | App listings, search, installs, ratings and reviews |
-| [**TikTok Ad Library**](https://github.com/2scraper/tiktok-ads-scraper) 🟢 | EU ads, advertisers, creatives, reach |
+| [**TikTok Ad Library**](https://github.com/2scraper/tiktok-ads-scraper) 🟢 | EU ads: advertisers, creatives, run dates, audience bucket |
 | [**TikTok profiles**](https://github.com/2scraper/tiktok-profile-scraper) 🟢 | Exact follower, like and video counts, bio |
 | [**TikTok videos**](https://github.com/2scraper/tiktok-video-scraper) 🟢 | Captions, engagement, hashtags, subtitles, media URLs |
 | [**Weibo**](https://github.com/2scraper/weibo-scraper) 🟢 | Hot feed, account timelines, comments, engagement |
