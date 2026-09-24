@@ -106,6 +106,7 @@ All public platform scrapers, grouped by what they are used for.
 | Scraper | What it extracts |
 |---|---|
 | [**Google Play**](https://github.com/2scraper/googleplay-scraper) 🟢 | App listings, search, installs, ratings and reviews |
+| [**Snapchat**](https://github.com/2scraper/snapchat-scraper) 🟢 | Public profiles, subscriber counts, Spotlight views and engagement, stories and highlights |
 | [**TikTok Ad Library**](https://github.com/2scraper/tiktok-ads-scraper) 🟢 | EU ads: advertisers, creatives, run dates, audience bucket |
 | [**TikTok profiles**](https://github.com/2scraper/tiktok-profile-scraper) 🟢 | Exact follower, like and video counts, bio |
 | [**TikTok videos**](https://github.com/2scraper/tiktok-video-scraper) 🟢 | Captions, engagement, hashtags, subtitles, media URLs |
