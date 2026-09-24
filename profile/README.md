@@ -132,6 +132,7 @@ All public platform scrapers, grouped by what they are used for.
 
 | Scraper | What it extracts |
 |---|---|
+| [**Binance**](https://github.com/2scraper/binance-scraper) 🟢 | P2P adverts, copy-trading lead portfolios, announcements |
 | [**Google Finance**](https://github.com/2scraper/google-finance-scraper) 🟢 | Quotes, financials, analyst ratings, OHLCV, FX |
 | [**Indiegogo**](https://github.com/2scraper/indiegogo-scraper) 🟢 | Campaigns, funding totals, backers, reward tiers |
 | [**OpenSea**](https://github.com/2scraper/opensea-scraper) 🟢 | NFT floor prices, offers, sales history, rankings |
