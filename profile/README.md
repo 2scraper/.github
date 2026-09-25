@@ -138,6 +138,7 @@ All public platform scrapers, grouped by what they are used for.
 | [**Indiegogo**](https://github.com/2scraper/indiegogo-scraper) 🟢 | Campaigns, funding totals, backers, reward tiers |
 | [**OpenSea**](https://github.com/2scraper/opensea-scraper) 🟢 | NFT floor prices, offers, sales history, rankings |
 | [**Polymarket**](https://github.com/2scraper/polymarket-scraper) 🟢 | Prediction-market prices, order books, token ids |
+| [**Screener**](https://github.com/2scraper/screener-scraper) 🟢 | Indian stock screens and sector listings: price, P/E, market cap, ROCE |
 
 ### ⚽ Sports
 
