@@ -92,6 +92,7 @@ All public platform scrapers, grouped by what they are used for.
 | [**Craigslist**](https://github.com/2scraper/craigslist-scraper) 🟢 | Classified listings and postings |
 | [**dubizzle**](https://github.com/2scraper/dubizzle-scraper) | UAE classifieds: cars, property, jobs |
 | [**Flippa**](https://github.com/2scraper/flippa-scraper) 🟢 | Online businesses, websites, apps and domains for sale |
+| [**MakeMyTrip**](https://github.com/2scraper/makemytrip-scraper) 🔵 | Indian hotel listings: nightly prices with taxes and fees, star and guest ratings |
 | [**Spinny**](https://github.com/2scraper/spinny-scraper) 🟢 | Used-car listings and car pages, prices |
 | [**Vrbo**](https://github.com/2scraper/vrbo-scraper) | Vacation-rental search grids and property pages |
 | [**Zimmo**](https://github.com/2scraper/zimmo-scraper) | Belgian property listings: prices, area, bedrooms, EPC |
