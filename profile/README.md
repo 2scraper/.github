@@ -72,6 +72,7 @@ All public platform scrapers, grouped by what they are used for.
 | [**Farfetch**](https://github.com/2scraper/farfetch-scraper) | Fashion listings and product pages with prices |
 | [**Givenchy**](https://github.com/2scraper/givenchy-scraper) 🟢 | Beauty products and prices |
 | [**Home Depot**](https://github.com/2scraper/homedepot-scraper) | Category listings and product pages, prices, specs |
+| [**Kohl's**](https://github.com/2scraper/kohls-scraper) 🔵 | Category, search and product pages: prices, ranges, sale labels, per-SKU stock |
 | [**Maison KOSÉ**](https://github.com/2scraper/kose-scraper) 🟢 | Japanese cosmetics: products, prices, brands, stock |
 | [**LG**](https://github.com/2scraper/lg-scraper) 🟢 | Catalogue models, sizes and categories |
 | [**Lidl**](https://github.com/2scraper/lidl-scraper) | US grocery products, prices, unit prices |
