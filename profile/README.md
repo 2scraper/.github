@@ -119,6 +119,7 @@ All public platform scrapers, grouped by what they are used for.
 
 | Scraper | What it extracts |
 |---|---|
+| [**Goodreads**](https://github.com/2scraper/goodreads-scraper) 🟢 | Lists, author books, search, full book pages, every review |
 | [**Medium**](https://github.com/2scraper/medium-scraper) 🟢 | Tag feeds, archives, author pages, full story text |
 | [**Quora**](https://github.com/2scraper/quora-scraper) 🟢 | Answers from questions, profiles and topics |
 
