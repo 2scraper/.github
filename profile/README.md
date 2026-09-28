@@ -81,6 +81,7 @@ All public platform scrapers, grouped by what they are used for.
 | [**Sleep Number**](https://github.com/2scraper/sleepnumber-scraper) | Smart beds and mattresses: per-size prices, ratings |
 | [**StockX**](https://github.com/2scraper/stockx-scraper) | Sneaker listings and products: asks, bids, last sale |
 | [**TikTok Shop**](https://github.com/2scraper/tiktok-shop-scraper) 🔵 | Products, prices, units sold, sellers |
+| [**Tractor Supply**](https://github.com/2scraper/tractorsupply-scraper) 🔵 | Farm and ranch listings: per-store prices, stock, ratings |
 | [**Tokopedia**](https://github.com/2scraper/tokopedia-scraper) 🔵 | Indonesian marketplace: search, category, product pages |
 | [**Woolworths**](https://github.com/2scraper/woolworths-scraper) 🟢 | Supermarket products, prices, unit prices, specials |
 
