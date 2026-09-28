@@ -97,6 +97,7 @@ All public platform scrapers, grouped by what they are used for.
 | [**MakeMyTrip**](https://github.com/2scraper/makemytrip-scraper) 🔵 | Indian hotel listings: nightly prices with taxes and fees, star and guest ratings |
 | [**Spinny**](https://github.com/2scraper/spinny-scraper) 🟢 | Used-car listings and car pages, prices |
 | [**Vrbo**](https://github.com/2scraper/vrbo-scraper) | Vacation-rental search grids and property pages |
+| [**Webmotors**](https://github.com/2scraper/webmotors-scraper) | Brazilian car and motorcycle listings and adverts: price, FIPE value, market-price range, mileage, seller |
 | [**Zimmo**](https://github.com/2scraper/zimmo-scraper) | Belgian property listings: prices, area, bedrooms, EPC |
 
 ### 🍔 Food & delivery
