@@ -58,7 +58,7 @@ All public platform scrapers, grouped by what they are used for.
 
 🟢 runs with **no API key and no proxy** · 🔵 needs the **[2Captcha Scraping Browser API](https://2captcha.com/scraper/browser-api)** — both measured and dated in that repository's README.
 
-> **One platform can take more than one scraper.** TikTok gates each route differently, so it is covered by four that work side by side: [profiles](https://github.com/2scraper/tiktok-profile-scraper) 🟢, [videos](https://github.com/2scraper/tiktok-video-scraper) 🟢 and the [EU Ad Library](https://github.com/2scraper/tiktok-ads-scraper) 🟢 need no key at all; [TikTok Shop](https://github.com/2scraper/tiktok-shop-scraper) 🔵 is behind a captcha and needs the Scraping Browser.
+> **One platform can take more than one scraper.** TikTok gates each route differently, so it is covered by four that work side by side: [profiles](https://github.com/2scraper/tiktok-profile-scraper) 🟢, [videos](https://github.com/2scraper/tiktok-video-scraper) 🟢 and the [EU Ad Library](https://github.com/2scraper/tiktok-ads-scraper) 🟢 need no key at all; [TikTok Shop](https://github.com/2scraper/tiktok-shop-scraper) 🔵 is behind a captcha and needs the Scraping Browser. Facebook is covered by three the same way: the [Ad Library](https://github.com/2scraper/facebook-ads-scraper) 🟢, [Pages](https://github.com/2scraper/facebook-pages-scraper) 🟢 and [Marketplace](https://github.com/2scraper/facebook-marketplace-scraper) 🟢, all read logged out.
 
 ### 🛒 E-commerce & retail
 
@@ -93,6 +93,7 @@ All public platform scrapers, grouped by what they are used for.
 | [**Autotrader**](https://github.com/2scraper/autotrader-scraper) | US car listings and detail pages: price, KBB fair price, VIN, dealers |
 | [**Craigslist**](https://github.com/2scraper/craigslist-scraper) 🟢 | Classified listings and postings |
 | [**dubizzle**](https://github.com/2scraper/dubizzle-scraper) | UAE classifieds: cars, property, jobs |
+| [**Facebook Marketplace**](https://github.com/2scraper/facebook-marketplace-scraper) 🟢 | Marketplace listings by keyword, category, location and price: titles, prices, photos, condition |
 | [**Flippa**](https://github.com/2scraper/flippa-scraper) 🟢 | Online businesses, websites, apps and domains for sale |
 | [**MakeMyTrip**](https://github.com/2scraper/makemytrip-scraper) 🔵 | Indian hotel listings: nightly prices with taxes and fees, star and guest ratings |
 | [**Spinny**](https://github.com/2scraper/spinny-scraper) 🟢 | Used-car listings and car pages, prices |
@@ -110,6 +111,8 @@ All public platform scrapers, grouped by what they are used for.
 
 | Scraper | What it extracts |
 |---|---|
+| [**Facebook Ad Library**](https://github.com/2scraper/facebook-ads-scraper) 🟢 | Meta ads by keyword or advertiser: creatives, run dates, platforms, EU/UK reach, targeting, political spend |
+| [**Facebook Pages**](https://github.com/2scraper/facebook-pages-scraper) 🟢 | Public Pages: contacts, followers, exact likes, owner, latest posts with exact engagement |
 | [**Google Play**](https://github.com/2scraper/googleplay-scraper) 🟢 | App listings, search, installs, ratings and reviews |
 | [**Snapchat**](https://github.com/2scraper/snapchat-scraper) 🟢 | Public profiles, subscriber counts, Spotlight views and engagement, stories and highlights |
 | [**TikTok Ad Library**](https://github.com/2scraper/tiktok-ads-scraper) 🟢 | EU ads: advertisers, creatives, run dates, audience bucket |
