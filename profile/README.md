@@ -1,7 +1,5 @@
 <div align="center">
-  <img src="https://github.com/2scraper.png" width="96" alt="2scraper logo">
-
-  <h1>2scraper</h1>
+  <a href="#user-content-scraper-directory"><img src="https://raw.githubusercontent.com/2scraper/.github/main/profile/assets/banner.png" width="100%" alt="2scraper: 65 open-source scrapers, one repository per site, JSON or CSV out. 31 need no key and no proxy; 7 use the 2Captcha Scraping Browser API."></a>
 
   <p><strong>Open-source web scrapers for real-world websites.</strong></p>
   <p>Turn products, listings, comments, prices, and market data into clean JSON or CSV.</p>
