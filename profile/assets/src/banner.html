@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.root{width:1280px;height:320px;box-sizing:border-box;background:#f6f4ef;color:#0e1116;font-family:'Space Grotesk',sans-serif;display:flex;overflow:hidden}
+.left{width:470px;flex-shrink:0;box-sizing:border-box;padding:40px 0 34px 56px;display:flex;flex-direction:column;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:10px;font-family:'JetBrains Mono',monospace;font-size:15px;font-weight:600}
+.mk{width:26px;height:26px;box-sizing:border-box;border-radius:6px;background:#0e1116;color:#f6f4ef;display:flex;align-items:flex-end;justify-content:center;gap:2px;padding-bottom:5px}
+.mk b{font-size:18px;line-height:.8}.mk i{width:6px;height:2.5px;margin-bottom:1px;background:#3ecf7a}
+h1{margin:0;font-size:54px;font-weight:700;line-height:.98;letter-spacing:-.02em}
+.sub{font-size:19px;line-height:1.35;color:#3b414b;margin-top:14px}
+.legend{display:flex;flex-direction:column;gap:8px;font-family:'JetBrains Mono',monospace;font-size:13px;color:#3b414b;white-space:nowrap}
+.legend span{display:flex;align-items:center;gap:8px}
+.dot{width:10px;height:10px;border-radius:50%;display:inline-block}
+.grid{flex-grow:1;box-sizing:border-box;padding:26px 30px 26px 0;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;align-content:center}
+.t{height:36px;box-sizing:border-box;border:1px solid #d9d5cb;border-radius:6px;background:#fff;display:flex;align-items:center;gap:7px;padding:0 10px;font-family:'JetBrains Mono',monospace;font-size:12px;white-space:nowrap;overflow:hidden}
+.d{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.g{background:#1a8a4a}.b{background:#2563eb}.n{border:1.5px solid #b9b4a8;box-sizing:border-box}
+</style></head><body>
+<div class="root">
+<div class="left">
+<div class="brand"><div class="mk"><b>2</b><i></i></div>2scraper</div>
+<div><h1>65 open-source<br>scrapers.</h1><div class="sub">One repository per site. JSON or CSV out.</div></div>
+<div class="legend"><span><i class="dot g"></i>31 need no key, no proxy</span><span><i class="dot b"></i>7 use the Scraping Browser</span></div>
+</div>
+<div class="grid" id="g"></div>
+</div>
+<script>
+const L=[['amazon','g'],['youtube','g'],['tiktok','g'],['instagram','n'],['rakuten','g'],['etsy','b'],
+['craigslist','g'],['binance','g'],['hackernews','g'],['zimmo','n'],['shein','n'],['goodreads','g'],
+['polymarket','g'],['perplexity','b'],['weibo','g'],['avito','n'],['stockx','n'],['medium','g'],
+['kohls','b'],['skyscanner','n'],['quora','g'],['opensea','g'],['vrbo','n'],['g2','n'],
+['transfermarkt','n'],['snapchat','g'],['mediamarkt','n'],['flippa','g'],['tokopedia','b'],['tipranks','n'],
+['googleplay','g'],['webmotors','n'],['makemytrip','b'],['wellfound','n'],['catawiki','g'],['+ 30 more','n']];
+const g=document.getElementById('g');
+for(const [n,k] of L){const d=document.createElement('div');d.className='t';d.innerHTML='<span class="d '+k+'"></span><span>'+n+'</span>';g.appendChild(d)}
+</script>
+</body></html>
