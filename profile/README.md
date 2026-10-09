@@ -15,7 +15,7 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/scrapers-30%2B-0969da?style=flat-square" alt="30+ scrapers">
+    <img src="https://img.shields.io/badge/scrapers-60%2B-0969da?style=flat-square" alt="60+ scrapers">
     <img src="https://img.shields.io/badge/Python-powered-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python powered">
     <img src="https://img.shields.io/badge/output-JSON%20%7C%20CSV-1f883d?style=flat-square" alt="JSON and CSV output">
     <img src="https://img.shields.io/badge/open-source-f6f8fa?style=flat-square" alt="Open source">
@@ -58,7 +58,7 @@ All public platform scrapers, grouped by what they are used for.
 
 🟢 runs with **no API key and no proxy** · 🔵 needs the **[2Captcha Scraping Browser API](https://2captcha.com/scraper/browser-api)** — both measured and dated in that repository's README.
 
-> **One platform can take more than one scraper.** TikTok gates each route differently, so it is covered by four that work side by side: [profiles](https://github.com/2scraper/tiktok-profile-scraper) 🟢, [videos](https://github.com/2scraper/tiktok-video-scraper) 🟢 and the [EU Ad Library](https://github.com/2scraper/tiktok-ads-scraper) 🟢 need no key at all; [TikTok Shop](https://github.com/2scraper/tiktok-shop-scraper) 🔵 is behind a captcha and needs the Scraping Browser.
+> **One platform can take more than one scraper.** TikTok gates each route differently, so it is covered by four that work side by side: [profiles](https://github.com/2scraper/tiktok-profile-scraper) 🟢, [videos](https://github.com/2scraper/tiktok-video-scraper) 🟢 and the [EU Ad Library](https://github.com/2scraper/tiktok-ads-scraper) 🟢 need no key at all; [TikTok Shop](https://github.com/2scraper/tiktok-shop-scraper) 🔵 is behind a captcha and needs the Scraping Browser. Facebook works the same way: [Pages](https://github.com/2scraper/facebook-pages-scraper), [Marketplace](https://github.com/2scraper/facebook-marketplace-scraper) and the [Meta Ad Library](https://github.com/2scraper/facebook-ads-scraper) are three scrapers, all read logged out.
 
 ### 🛒 E-commerce & retail
 
@@ -73,17 +73,19 @@ All public platform scrapers, grouped by what they are used for.
 | [**Givenchy**](https://github.com/2scraper/givenchy-scraper) 🟢 | Beauty products and prices |
 | [**Home Depot**](https://github.com/2scraper/homedepot-scraper) | Category listings and product pages, prices, specs |
 | [**Kohl's**](https://github.com/2scraper/kohls-scraper) 🔵 | Category, search and product pages: prices, ranges, sale labels, per-SKU stock |
-| [**Maison KOSÉ**](https://github.com/2scraper/kose-scraper) 🟢 | Japanese cosmetics: products, prices, brands, stock |
 | [**LG**](https://github.com/2scraper/lg-scraper) 🟢 | Catalogue models, sizes and categories |
 | [**Lidl**](https://github.com/2scraper/lidl-scraper) | US grocery products, prices, unit prices |
+| [**Maison KOSÉ**](https://github.com/2scraper/kose-scraper) 🟢 | Japanese cosmetics: products, prices, brands, stock |
 | [**MediaMarkt**](https://github.com/2scraper/mediamarkt-scraper) | Electronics listings and product pages, prices |
 | [**Montblanc**](https://github.com/2scraper/montblanc-scraper) 🟢 | Per-market prices, stock, collections, variants |
+| [**Pottery Barn**](https://github.com/2scraper/potterybarn-scraper) | Category listings with price ranges, then every SKU's price, markdown and stock |
 | [**Rakuten**](https://github.com/2scraper/rakuten-scraper) 🟢 | Ichiba products, prices, points, shops, reviews |
+| [**SHEIN**](https://github.com/2scraper/shein-scraper) | Search, category and product pages: prices, discounts, ratings, stock |
 | [**Sleep Number**](https://github.com/2scraper/sleepnumber-scraper) | Smart beds and mattresses: per-size prices, ratings |
 | [**StockX**](https://github.com/2scraper/stockx-scraper) | Sneaker listings and products: asks, bids, last sale |
 | [**TikTok Shop**](https://github.com/2scraper/tiktok-shop-scraper) 🔵 | Products, prices, units sold, sellers |
-| [**Tractor Supply**](https://github.com/2scraper/tractorsupply-scraper) 🔵 | Farm and ranch listings: per-store prices, stock, ratings |
 | [**Tokopedia**](https://github.com/2scraper/tokopedia-scraper) 🔵 | Indonesian marketplace: search, category, product pages |
+| [**Tractor Supply**](https://github.com/2scraper/tractorsupply-scraper) 🔵 | Farm and ranch listings: per-store prices, stock, ratings |
 | [**Woolworths**](https://github.com/2scraper/woolworths-scraper) 🟢 | Supermarket products, prices, unit prices, specials |
 
 ### 🏠 Classifieds, property & travel
@@ -91,10 +93,14 @@ All public platform scrapers, grouped by what they are used for.
 | Scraper | What it extracts |
 |---|---|
 | [**Autotrader**](https://github.com/2scraper/autotrader-scraper) | US car listings and detail pages: price, KBB fair price, VIN, dealers |
+| [**Avito**](https://github.com/2scraper/avito-scraper) | Russian classifieds: listings, item pages and seller profiles, prices |
 | [**Craigslist**](https://github.com/2scraper/craigslist-scraper) 🟢 | Classified listings and postings |
 | [**dubizzle**](https://github.com/2scraper/dubizzle-scraper) | UAE classifieds: cars, property, jobs |
+| [**Facebook Marketplace**](https://github.com/2scraper/facebook-marketplace-scraper) | Listings by keyword, category, location and price, read logged out |
 | [**Flippa**](https://github.com/2scraper/flippa-scraper) 🟢 | Online businesses, websites, apps and domains for sale |
 | [**MakeMyTrip**](https://github.com/2scraper/makemytrip-scraper) 🔵 | Indian hotel listings: nightly prices with taxes and fees, star and guest ratings |
+| [**Rosreestr**](https://github.com/2scraper/rosreestr-scraper) | Russian property registry: cadastral value, area, rights and encumbrances |
+| [**Skyscanner**](https://github.com/2scraper/skyscanner-scraper) | Flight searches: itineraries, prices, airlines and times |
 | [**Spinny**](https://github.com/2scraper/spinny-scraper) 🟢 | Used-car listings and car pages, prices |
 | [**Vrbo**](https://github.com/2scraper/vrbo-scraper) | Vacation-rental search grids and property pages |
 | [**Webmotors**](https://github.com/2scraper/webmotors-scraper) | Brazilian car and motorcycle listings and adverts: price, FIPE value, market-price range, mileage, seller |
@@ -110,7 +116,10 @@ All public platform scrapers, grouped by what they are used for.
 
 | Scraper | What it extracts |
 |---|---|
+| [**Facebook Pages**](https://github.com/2scraper/facebook-pages-scraper) | Contacts, followers, exact likes and latest posts with engagement |
 | [**Google Play**](https://github.com/2scraper/googleplay-scraper) 🟢 | App listings, search, installs, ratings and reviews |
+| [**Instagram**](https://github.com/2scraper/instagram-scraper) | Public profiles and posts: followers, likes, comments, captions, media |
+| [**Meta Ad Library**](https://github.com/2scraper/facebook-ads-scraper) | Ads by keyword or advertiser, EU/UK reach and targeting, political spend |
 | [**Snapchat**](https://github.com/2scraper/snapchat-scraper) 🟢 | Public profiles, subscriber counts, Spotlight views and engagement, stories and highlights |
 | [**TikTok Ad Library**](https://github.com/2scraper/tiktok-ads-scraper) 🟢 | EU ads: advertisers, creatives, run dates, audience bucket |
 | [**TikTok profiles**](https://github.com/2scraper/tiktok-profile-scraper) 🟢 | Exact follower, like and video counts, bio |
@@ -123,7 +132,9 @@ All public platform scrapers, grouped by what they are used for.
 | Scraper | What it extracts |
 |---|---|
 | [**Goodreads**](https://github.com/2scraper/goodreads-scraper) 🟢 | Lists, author books, search, full book pages, every review |
+| [**Hacker News**](https://github.com/2scraper/hackernews-scraper) 🟢 | Story lists, whole comment trees and user profiles |
 | [**Medium**](https://github.com/2scraper/medium-scraper) 🟢 | Tag feeds, archives, author pages, full story text |
+| [**Perplexity**](https://github.com/2scraper/perplexity-scraper) 🔵 | Pages and Discover articles: authors, cited sources, view counts |
 | [**Quora**](https://github.com/2scraper/quora-scraper) 🟢 | Answers from questions, profiles and topics |
 
 ### 💼 Jobs & business directories
@@ -131,6 +142,7 @@ All public platform scrapers, grouped by what they are used for.
 | Scraper | What it extracts |
 |---|---|
 | [**BBB**](https://github.com/2scraper/bbb-scraper) | Business listings, BBB ratings, accreditation, complaints |
+| [**G2**](https://github.com/2scraper/g2-scraper) | Software categories, reviews and pricing pages: both rating scales, review counts |
 | [**Just Join IT**](https://github.com/2scraper/justjoin-scraper) 🟢 | IT job offers with salaries, skills, seniority |
 | [**Mercor**](https://github.com/2scraper/mercor-scraper) 🟢 | Contract roles, rates, eligibility, corporate openings |
 | [**Wellfound**](https://github.com/2scraper/wellfound-scraper) | Startup jobs with salary and equity ranges |
@@ -145,6 +157,7 @@ All public platform scrapers, grouped by what they are used for.
 | [**OpenSea**](https://github.com/2scraper/opensea-scraper) 🟢 | NFT floor prices, offers, sales history, rankings |
 | [**Polymarket**](https://github.com/2scraper/polymarket-scraper) 🟢 | Prediction-market prices, order books, token ids |
 | [**Screener**](https://github.com/2scraper/screener-scraper) 🟢 | Indian stock screens and sector listings: price, P/E, market cap, ROCE |
+| [**TipRanks**](https://github.com/2scraper/tipranks-scraper) | Smart Score, analyst consensus and price targets per ticker |
 
 ### ⚽ Sports
 
