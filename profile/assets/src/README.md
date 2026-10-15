@@ -10,6 +10,6 @@ python3 render.py        # writes ../banner.png and ../logo.png
 
 The banner states counts — total scrapers, how many run with no key and no proxy (🟢),
 how many need the Scraping Browser API (🔵) — taken from the directory in
-`../../README.md` on 2026-10-09 (65 / 31 / 7). They go stale as repos are added:
+`../../README.md` on 2026-10-15 (65 / 34 / 8). They go stale as repos are added:
 recount from the directory, edit `banner.html` (the headline, the legend and the tile
 list), re-render, and update the `alt` text in the README to match.
