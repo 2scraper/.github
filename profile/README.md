@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="#user-content-scraper-directory"><img src="https://raw.githubusercontent.com/2scraper/.github/main/profile/assets/banner.png" width="100%" alt="2scraper: 65 open-source scrapers, one repository per site, JSON or CSV out. 31 need no key and no proxy; 7 use the 2Captcha Scraping Browser API."></a>
+  <a href="#user-content-scraper-directory"><img src="https://raw.githubusercontent.com/2scraper/.github/main/profile/assets/banner.png" width="100%" alt="2scraper: 65 open-source scrapers, one repository per site, JSON or CSV out. 34 need no key and no proxy; 8 use the 2Captcha Scraping Browser API."></a>
 
   <p><strong>Open-source web scrapers for real-world websites.</strong></p>
   <p>Turn products, listings, comments, prices, and market data into clean JSON or CSV.</p>
@@ -56,7 +56,7 @@ All public platform scrapers, grouped by what they are used for.
 
 🟢 runs with **no API key and no proxy** · 🔵 needs the **[2Captcha Scraping Browser API](https://2captcha.com/scraper/browser-api)** — both measured and dated in that repository's README.
 
-> **One platform can take more than one scraper.** TikTok gates each route differently, so it is covered by four that work side by side: [profiles](https://github.com/2scraper/tiktok-profile-scraper) 🟢, [videos](https://github.com/2scraper/tiktok-video-scraper) 🟢 and the [EU Ad Library](https://github.com/2scraper/tiktok-ads-scraper) 🟢 need no key at all; [TikTok Shop](https://github.com/2scraper/tiktok-shop-scraper) 🔵 is behind a captcha and needs the Scraping Browser. Facebook works the same way: [Pages](https://github.com/2scraper/facebook-pages-scraper), [Marketplace](https://github.com/2scraper/facebook-marketplace-scraper) and the [Meta Ad Library](https://github.com/2scraper/facebook-ads-scraper) are three scrapers, all read logged out.
+> **One platform can take more than one scraper.** TikTok gates each route differently, so it is covered by four that work side by side: [profiles](https://github.com/2scraper/tiktok-profile-scraper) 🟢, [videos](https://github.com/2scraper/tiktok-video-scraper) 🟢 and the [EU Ad Library](https://github.com/2scraper/tiktok-ads-scraper) 🟢 need no key at all; [TikTok Shop](https://github.com/2scraper/tiktok-shop-scraper) 🔵 is behind a captcha and needs the Scraping Browser. Facebook works the same way, with three scrapers that all read logged out: [Pages](https://github.com/2scraper/facebook-pages-scraper) 🟢 and the [Meta Ad Library](https://github.com/2scraper/facebook-ads-scraper) 🟢 need no key at all; [Marketplace](https://github.com/2scraper/facebook-marketplace-scraper) needs no key from a home connection but refuses datacentre addresses, so from a server it needs a residential proxy or the Scraping Browser.
 
 ### 🛒 E-commerce & retail
 
@@ -72,7 +72,7 @@ All public platform scrapers, grouped by what they are used for.
 | [**Home Depot**](https://github.com/2scraper/homedepot-scraper) | Category listings and product pages, prices, specs |
 | [**Kohl's**](https://github.com/2scraper/kohls-scraper) 🔵 | Category, search and product pages: prices, ranges, sale labels, per-SKU stock |
 | [**LG**](https://github.com/2scraper/lg-scraper) 🟢 | Catalogue models, sizes and categories |
-| [**Lidl**](https://github.com/2scraper/lidl-scraper) | US grocery products, prices, unit prices |
+| [**Lidl**](https://github.com/2scraper/lidl-scraper) 🟢 | US grocery products, prices, unit prices |
 | [**Maison KOSÉ**](https://github.com/2scraper/kose-scraper) 🟢 | Japanese cosmetics: products, prices, brands, stock |
 | [**MediaMarkt**](https://github.com/2scraper/mediamarkt-scraper) | Electronics listings and product pages, prices |
 | [**Montblanc**](https://github.com/2scraper/montblanc-scraper) 🟢 | Per-market prices, stock, collections, variants |
@@ -80,7 +80,7 @@ All public platform scrapers, grouped by what they are used for.
 | [**Rakuten**](https://github.com/2scraper/rakuten-scraper) 🟢 | Ichiba products, prices, points, shops, reviews |
 | [**SHEIN**](https://github.com/2scraper/shein-scraper) | Search, category and product pages: prices, discounts, ratings, stock |
 | [**Sleep Number**](https://github.com/2scraper/sleepnumber-scraper) | Smart beds and mattresses: per-size prices, ratings |
-| [**StockX**](https://github.com/2scraper/stockx-scraper) | Sneaker listings and products: asks, bids, last sale |
+| [**StockX**](https://github.com/2scraper/stockx-scraper) 🔵 | Sneaker listings and products: asks, bids, last sale |
 | [**TikTok Shop**](https://github.com/2scraper/tiktok-shop-scraper) 🔵 | Products, prices, units sold, sellers |
 | [**Tokopedia**](https://github.com/2scraper/tokopedia-scraper) 🔵 | Indonesian marketplace: search, category, product pages |
 | [**Tractor Supply**](https://github.com/2scraper/tractorsupply-scraper) 🔵 | Farm and ranch listings: per-store prices, stock, ratings |
@@ -114,10 +114,10 @@ All public platform scrapers, grouped by what they are used for.
 
 | Scraper | What it extracts |
 |---|---|
-| [**Facebook Pages**](https://github.com/2scraper/facebook-pages-scraper) | Contacts, followers, exact likes and latest posts with engagement |
+| [**Facebook Pages**](https://github.com/2scraper/facebook-pages-scraper) 🟢 | Contacts, followers, exact likes and latest posts with engagement |
 | [**Google Play**](https://github.com/2scraper/googleplay-scraper) 🟢 | App listings, search, installs, ratings and reviews |
 | [**Instagram**](https://github.com/2scraper/instagram-scraper) | Public profiles and posts: followers, likes, comments, captions, media |
-| [**Meta Ad Library**](https://github.com/2scraper/facebook-ads-scraper) | Ads by keyword or advertiser, EU/UK reach and targeting, political spend |
+| [**Meta Ad Library**](https://github.com/2scraper/facebook-ads-scraper) 🟢 | Ads by keyword or advertiser, EU/UK reach and targeting, political spend |
 | [**Snapchat**](https://github.com/2scraper/snapchat-scraper) 🟢 | Public profiles, subscriber counts, Spotlight views and engagement, stories and highlights |
 | [**TikTok Ad Library**](https://github.com/2scraper/tiktok-ads-scraper) 🟢 | EU ads: advertisers, creatives, run dates, audience bucket |
 | [**TikTok profiles**](https://github.com/2scraper/tiktok-profile-scraper) 🟢 | Exact follower, like and video counts, bio |
