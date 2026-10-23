@@ -1,4 +1,9 @@
 <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/2scraper/.github/main/brand/logo-horizontal.svg">
+    <img src="https://raw.githubusercontent.com/2scraper/.github/main/brand/logo-horizontal-onlight.svg" alt="2scraper" width="260">
+  </picture>
+
   <a href="#user-content-scraper-directory"><img src="https://raw.githubusercontent.com/2scraper/.github/main/profile/assets/banner.png" width="100%" alt="2scraper: 65 open-source scrapers, one repository per site, JSON or CSV out. 34 need no key and no proxy; 8 use the 2Captcha Scraping Browser API."></a>
 
   <p><strong>Open-source web scrapers for real-world websites.</strong></p>
