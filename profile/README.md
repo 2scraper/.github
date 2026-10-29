@@ -1,11 +1,13 @@
 <div align="center">
-  <a href="#user-content-scraper-directory"><img src="https://raw.githubusercontent.com/2scraper/.github/main/profile/assets/banner.png" width="100%" alt="2scraper: 65 open-source scrapers, one repository per site, JSON or CSV out. 34 need no key and no proxy; 8 use the 2Captcha Scraping Browser API."></a>
+  <a href="#user-content-scraper-directory"><img src="https://raw.githubusercontent.com/2scraper/.github/main/profile/assets/banner.png" width="100%" alt="2scraper: 65 open-source Python scrapers, one repository per site, JSON or CSV out. 34 need no key and no proxy; 8 need the 2Captcha Scraping Browser API."></a>
 
-  <p><strong>Open-source web scrapers for real-world websites.</strong></p>
+  <p><strong>Open-source Python web scrapers for real-world websites.</strong></p>
   <p>Turn products, listings, comments, prices, and market data into clean JSON or CSV.</p>
 
   <p>
     <a href="#user-content-scraper-directory"><strong>Browse scrapers</strong></a>
+    ·
+    <a href="https://2scraper.com/"><strong>Catalog on 2scraper.com</strong></a>
     ·
     <a href="https://github.com/2scraper/.github/issues/new?title=%5BScraper%20request%5D%20"><strong>Request a website</strong></a>
     ·
@@ -13,7 +15,7 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/scrapers-60%2B-0969da?style=flat-square" alt="60+ scrapers">
+    <img src="https://img.shields.io/badge/scrapers-65-0969da?style=flat-square" alt="65 scrapers">
     <img src="https://img.shields.io/badge/Python-powered-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python powered">
     <img src="https://img.shields.io/badge/output-JSON%20%7C%20CSV-1f883d?style=flat-square" alt="JSON and CSV output">
     <img src="https://img.shields.io/badge/open-source-f6f8fa?style=flat-square" alt="Open source">
@@ -24,7 +26,7 @@
 
 ## Web data, without rebuilding the plumbing
 
-**2scraper** is a collection of focused, ready-to-run scrapers for popular websites. Each repository targets one platform and documents the supported pages, captured fields, setup, and output—so you can spend less time reverse-engineering websites and more time using the data.
+**2scraper** is a collection of focused, ready-to-run Python scrapers for popular websites. Each repository targets one platform and documents the supported pages, captured fields, setup, and output—so you can spend less time reverse-engineering websites and more time using the data.
 
 | | |
 |---|---|
@@ -35,7 +37,7 @@
 
 1. Pick a target from the [scraper directory](#user-content-scraper-directory).
 2. Open its repository and follow the quick-start guide.
-3. Run locally, then add the optional browser, proxy, or CAPTCHA setup documented for that target.
+3. Run locally. Some targets need nothing else; others need the browser, proxy or captcha setup that repository documents, with the measurement behind it.
 
 > Support differs by repository. The README in each scraper is the source of truth for engines, locales, fields, and infrastructure requirements.
 
@@ -46,8 +48,8 @@
 | [**Amazon**](https://github.com/2scraper/amazon-scraper) | Search results, best sellers, product pages, and public reviews across 21 marketplaces — runs with no key or proxy |
 | [**YouTube**](https://github.com/2scraper/youtube-scraper) | Comment threads and replies, video metadata, and video search — runs with no key or proxy |
 | [**Catawiki**](https://github.com/2scraper/catawiki-scraper) | Auction lots, bids, reserves, estimates, and seller data — runs with no key or proxy |
-| [**StockX**](https://github.com/2scraper/stockx-scraper) | Products, asks, bids, last sales, and market statistics |
-| [**Transfermarkt**](https://github.com/2scraper/transfermarkt-scraper) | Player profiles, market values, club squads, and transfers |
+| [**Rakuten**](https://github.com/2scraper/rakuten-scraper) | Rakuten Ichiba products, prices, points, shops, and reviews — runs with no key or proxy |
+| [**Zimmo**](https://github.com/2scraper/zimmo-scraper) | Belgian property listings for sale and rent: prices, addresses, living area, bedrooms, EPC labels — needs a headful browser and a residential exit (measured; see README) |
 | [**Medium**](https://github.com/2scraper/medium-scraper) | Stories, authors, publications, tag feeds, and full article text — runs with no key or proxy |
 
 ## Scraper directory
@@ -163,7 +165,7 @@ All public platform scrapers, grouped by what they are used for.
 |---|---|
 | [**Transfermarkt**](https://github.com/2scraper/transfermarkt-scraper) | Market values, squads, transfers, player profiles |
 
-<p align="right"><a href="https://github.com/orgs/2scraper/repositories"><strong>View all repositories →</strong></a></p>
+<p align="right"><a href="https://github.com/orgs/2scraper/repositories"><strong>View all repositories →</strong></a> · <a href="https://2scraper.com/"><strong>Catalog with examples on 2scraper.com →</strong></a></p>
 
 ## Built to fit your workflow
 
@@ -175,7 +177,7 @@ Most repositories include:
 - pagination and dynamic-content handling tailored to the target;
 - optional [2Captcha](https://2captcha.com/) integrations — [captcha solving](https://2captcha.com/), the [Scraping Browser API](https://2captcha.com/scraper/browser-api), [2prx](https://2prx.com/) residential proxies and [fingerprints](https://2captcha.com/s/fingerprints) — when a site needs them.
 
-Every scraper can be used on your own infrastructure. Paid services are optional unless a repository explicitly says otherwise.
+Open-source code. Infrastructure requirements depend on the scraper and the access mode: each README states what was measured, when, and what — if anything — is required for the documented scenario.
 
 ## 2Captcha products, one account
 
@@ -189,6 +191,11 @@ Every scraper runs on your own machine first. When a site pushes back, each repo
 | [**Fingerprints**](https://2captcha.com/s/fingerprints) | A consistent, self-consistent browser identity | Volume across many sessions |
 
 The four are billed separately; one [2Captcha account](https://2captcha.com/) covers them.
+
+## Guides
+
+- [How to run the 2scraper scrapers: setup, proxies and the Browser API](https://2captcha.com/h/how-to-run-2scraper-open-source-scrapers) — installation, `.env`, `.meta.json`, exit codes and access modes for the whole family.
+- Site guides: [SHEIN](https://2captcha.com/h/how-to-scrape-shein) · [Avito](https://2captcha.com/h/how-to-scrape-avito) · [Google Play](https://2captcha.com/h/how-to-scrape-google-play) · [Transfermarkt](https://2captcha.com/h/how-to-scrape-transfermarkt) · [TipRanks](https://2captcha.com/h/how-to-scrape-tipranks) · [Lidl](https://2captcha.com/h/how-to-scrape-lidl) · [YouTube](https://2captcha.com/h/how-to-scrape-youtube)
 
 ## Need another website?
 
