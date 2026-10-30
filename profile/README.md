@@ -194,7 +194,7 @@ The four are billed separately; one [2Captcha account](https://2captcha.com/) co
 
 ## Guides
 
-- [How to run the 2scraper scrapers: setup, proxies, exit codes and access modes](https://2captcha.com/h/how-to-run-2scraper-open-source-scrapers) — installation, `.env`, `.meta.json`, exit codes and access modes for the whole family.
+- [How to run the 2scraper scrapers: setup, proxies, exit codes and access modes](https://2captcha.com/h/how-to-run-2scraper-open-source-scrapers) — installation, `.env`, `.meta.json` for the whole family.
 - Site guides: [SHEIN](https://2captcha.com/h/how-to-scrape-shein) · [Avito](https://2captcha.com/h/how-to-scrape-avito) · [Google Play](https://2captcha.com/h/how-to-scrape-google-play) · [Transfermarkt](https://2captcha.com/h/how-to-scrape-transfermarkt) · [TipRanks](https://2captcha.com/h/how-to-scrape-tipranks) · [Lidl](https://2captcha.com/h/how-to-scrape-lidl) · [YouTube](https://2captcha.com/h/how-to-scrape-youtube)
 
 ## Need another website?
